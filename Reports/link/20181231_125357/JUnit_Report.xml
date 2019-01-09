@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="link" time="42" tests="2" failures="0" errors="0">
+   <testsuite name="link" tests="2" failures="0" errors="0" time="42" timestamp="2018-12-31 12:54:00" hostname="HP - DESKTOP-2D7LI1O.mshome.net" id="Test Suites/link">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20181231_125357"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20181231_125357\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="HP - DESKTOP-2D7LI1O.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="fbd8d84b0359f22df97daec077c108b8"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/home page/login" classname="Test Cases/home page/login" status="PASSED">
+         <system-out><![CDATA[2018-12-31 12:54:00 - [TEST_CASE][PASSED] - Test Cases/home page/login: Test Cases/home page/login
+
+2018-12-31 12:54:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-31 12:54:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-31 12:54:01 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2018-12-31 12:54:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-31 12:54:05 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/auth/login"): Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2018-12-31 12:54:17 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userName (1)"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2018-12-31 12:54:17 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userPassword (1)"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2018-12-31 12:54:17 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2018-12-31 12:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-31 12:54:17 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2018-12-31 12:54:17 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2018-12-31 12:54:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2018-12-31 12:54:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-12-31 12:54:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2018-12-31 12:54:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-12-31 12:54:21 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2018-12-31 12:54:33 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2018-12-31 12:54:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2018-12-31 12:54:35 - [MESSAGE][PASSED] - Current window maximized
+
+2018-12-31 12:54:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-31 12:54:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-31 12:54:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2018-12-31 12:54:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2018-12-31 12:54:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2018-12-31 12:54:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-12-31 12:54:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2018-12-31 12:54:41 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2018-12-31 12:54:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2018-12-31 12:54:42 - [MESSAGE][PASSED] - Browser is closed
+
+2018-12-31 12:54:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2018-12-31 12:54:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2018-12-31 12:54:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-12-31 12:54:00 - [TEST_SUITE][PASSED] - link: Test Cases/home page/Contact Us]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

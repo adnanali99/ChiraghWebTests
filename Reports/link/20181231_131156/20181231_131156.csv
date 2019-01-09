@@ -1,0 +1,223 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+link,Chrome 71.0.3578.98,,2018-12-31 13:11:59,2018-12-31 13:19:53,7m - 54.154s,FAILED
+,,,,,,
+Test Cases/home page/login,Chrome 71.0.3578.98,,2018-12-31 13:12:00,2018-12-31 13:12:19,19.554s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:12:00,2018-12-31 13:12:04,3.937s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/auth/login"")",Chrome 71.0.3578.98,,2018-12-31 13:12:04,2018-12-31 13:12:18,14.594s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userName (1)""), ""newuser01"")",Chrome 71.0.3578.98,,2018-12-31 13:12:18,2018-12-31 13:12:19,0.326s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userPassword (1)""), ""1234567890"")",Chrome 71.0.3578.98,,2018-12-31 13:12:19,2018-12-31 13:12:19,0.218s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Sign In""))",Chrome 71.0.3578.98,,2018-12-31 13:12:19,2018-12-31 13:12:19,0.192s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:12:19,2018-12-31 13:12:19,0.041s,PASSED
+,,,,,,
+Test Cases/home page/Contact Us,Chrome 71.0.3578.98,,2018-12-31 13:12:19,2018-12-31 13:12:44,24.769s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:12:20,2018-12-31 13:12:23,3.129s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:12:23,2018-12-31 13:12:36,12.802s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:12:36,2018-12-31 13:12:37,1.143s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:12:37,2018-12-31 13:12:40,3.043s,PASSED
+"click(findTestObject(""Object Repository/Contact Us/Page_Chiragh/a_CONTACT US""))",Chrome 71.0.3578.98,,2018-12-31 13:12:40,2018-12-31 13:12:40,0.169s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:12:40,2018-12-31 13:12:43,3.006s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:12:43,2018-12-31 13:12:43,0.175s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:12:43,2018-12-31 13:12:44,0.801s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:12:44,2018-12-31 13:12:44,0.018s,PASSED
+,,,,,,
+Test Cases/header/about us,Chrome 71.0.3578.98,,2018-12-31 13:12:44,2018-12-31 13:13:16,31.931s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:12:44,2018-12-31 13:12:47,2.282s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:12:47,2018-12-31 13:13:08,21.099s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:13:08,2018-12-31 13:13:09,1.173s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:09,2018-12-31 13:13:12,3.005s,PASSED
+"click(findTestObject(""Object Repository/about us/Page_Chiragh/a_About Us(current)""))",Chrome 71.0.3578.98,,2018-12-31 13:13:12,2018-12-31 13:13:12,0.208s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:12,2018-12-31 13:13:15,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT""), 5)",Chrome 71.0.3578.98,,2018-12-31 13:13:15,2018-12-31 13:13:15,0.043s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:13:15,2018-12-31 13:13:16,0.835s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:13:16,2018-12-31 13:13:16,0.012s,PASSED
+,,,,,,
+Test Cases/header/Buy,Chrome 71.0.3578.98,,2018-12-31 13:13:16,2018-12-31 13:13:39,22.735s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:13:16,2018-12-31 13:13:18,2.304s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:13:18,2018-12-31 13:13:30,11.940s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:13:30,2018-12-31 13:13:32,1.189s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:32,2018-12-31 13:13:35,3.003s,PASSED
+"click(findTestObject(""Object Repository/buy/Page_Chiragh/a_Buy""))",Chrome 71.0.3578.98,,2018-12-31 13:13:35,2018-12-31 13:13:35,0.146s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:35,2018-12-31 13:13:38,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:13:38,2018-12-31 13:13:38,0.072s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:13:38,2018-12-31 13:13:39,0.816s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:13:39,2018-12-31 13:13:39,0.008s,PASSED
+,,,,,,
+Test Cases/header/FAQS,Chrome 71.0.3578.98,,2018-12-31 13:13:39,2018-12-31 13:14:01,22.615s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:13:39,2018-12-31 13:13:41,2.262s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:13:41,2018-12-31 13:13:53,11.879s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:13:53,2018-12-31 13:13:54,1.174s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:54,2018-12-31 13:13:57,3.003s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Page_Chiragh/a_FAQs""))",Chrome 71.0.3578.98,,2018-12-31 13:13:57,2018-12-31 13:13:57,0.147s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:13:57,2018-12-31 13:14:00,3.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:14:00,2018-12-31 13:14:00,0.059s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:14:00,2018-12-31 13:14:01,0.793s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:14:01,2018-12-31 13:14:01,0.005s,PASSED
+,,,,,,
+Test Cases/header/How it Works,Chrome 71.0.3578.98,,2018-12-31 13:14:01,2018-12-31 13:14:26,25.151s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:14:02,2018-12-31 13:14:04,2.296s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:14:04,2018-12-31 13:14:18,14.345s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:14:18,2018-12-31 13:14:19,1.188s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:14:19,2018-12-31 13:14:22,3.003s,PASSED
+"click(findTestObject(""Object Repository/How it Works/Page_Chiragh/a_How it Works""))",Chrome 71.0.3578.98,,2018-12-31 13:14:22,2018-12-31 13:14:23,0.140s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:14:23,2018-12-31 13:14:26,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process""), 5)",Chrome 71.0.3578.98,,2018-12-31 13:14:26,2018-12-31 13:14:26,0.076s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:14:26,2018-12-31 13:14:26,0.818s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:14:26,2018-12-31 13:14:26,0.007s,PASSED
+,,,,,,
+Test Cases/header/repurchase,Chrome 71.0.3578.98,,2018-12-31 13:14:26,2018-12-31 13:14:50,23.447s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:14:27,2018-12-31 13:14:29,2.382s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:14:29,2018-12-31 13:14:42,12.550s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:14:42,2018-12-31 13:14:43,1.129s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:14:43,2018-12-31 13:14:46,3.004s,PASSED
+"click(findTestObject(""Object Repository/repurchase/Page_Chiragh/a_Repurchase""))",Chrome 71.0.3578.98,,2018-12-31 13:14:46,2018-12-31 13:14:46,0.147s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:14:46,2018-12-31 13:14:49,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR""), 5)",Chrome 71.0.3578.98,,2018-12-31 13:14:49,2018-12-31 13:14:49,0.084s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:14:49,2018-12-31 13:14:50,0.882s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:14:50,2018-12-31 13:14:50,0.006s,PASSED
+,,,,,,
+Test Cases/header/resources,Chrome 71.0.3578.98,,2018-12-31 13:14:50,2018-12-31 13:15:13,22.848s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:14:50,2018-12-31 13:14:53,2.308s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:14:53,2018-12-31 13:15:05,11.984s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:15:05,2018-12-31 13:15:06,1.167s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:15:06,2018-12-31 13:15:09,3.003s,PASSED
+"click(findTestObject(""Object Repository/RESOURCES/Page_Chiragh/a_Resources""))",Chrome 71.0.3578.98,,2018-12-31 13:15:09,2018-12-31 13:15:09,0.121s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:15:09,2018-12-31 13:15:12,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/RESOURCES/Page_Chiragh/div_Resources""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:15:12,2018-12-31 13:15:12,0.099s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:15:12,2018-12-31 13:15:13,0.849s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:15:13,2018-12-31 13:15:13,0.007s,PASSED
+,,,,,,
+Test Cases/home page/Contact Us,Chrome 71.0.3578.98,,2018-12-31 13:15:13,2018-12-31 13:15:35,22.696s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:15:13,2018-12-31 13:15:15,2.416s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:15:15,2018-12-31 13:15:27,11.892s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:15:27,2018-12-31 13:15:28,1.175s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:15:28,2018-12-31 13:15:31,3.003s,PASSED
+"click(findTestObject(""Object Repository/Contact Us/Page_Chiragh/a_CONTACT US""))",Chrome 71.0.3578.98,,2018-12-31 13:15:31,2018-12-31 13:15:31,0.159s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:15:31,2018-12-31 13:15:34,3.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:15:34,2018-12-31 13:15:35,0.211s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:15:35,2018-12-31 13:15:35,0.796s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:15:35,2018-12-31 13:15:35,0.009s,PASSED
+,,,,,,
+Test Cases/home page/load more,Chrome 71.0.3578.98,,2018-12-31 13:15:35,2018-12-31 13:15:36,0.309s,FAILED
+acceptAlert(),Chrome 71.0.3578.98,,2018-12-31 13:15:36,2018-12-31 13:15:36,0.039s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:15:36,2018-12-31 13:15:36,0.002s,PASSED
+,,,,,,
+Test Cases/home page/login,Chrome 71.0.3578.98,,2018-12-31 13:15:36,2018-12-31 13:15:49,13.313s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:15:36,2018-12-31 13:15:38,2.278s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/auth/login"")",Chrome 71.0.3578.98,,2018-12-31 13:15:38,2018-12-31 13:15:49,10.474s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userName (1)""), ""newuser01"")",Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:15:49,0.194s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userPassword (1)""), ""1234567890"")",Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:15:49,0.213s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Sign In""))",Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:15:49,0.144s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:15:49,0.003s,PASSED
+,,,,,,
+Test Cases/home page/view property by name,Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:16:13,24.160s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:15:49,2018-12-31 13:15:53,3.096s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:15:53,2018-12-31 13:16:04,11.811s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:16:04,2018-12-31 13:16:06,1.123s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:16:06,2018-12-31 13:16:09,3.005s,PASSED
+"click(findTestObject(""Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit""))",Chrome 71.0.3578.98,,2018-12-31 13:16:09,2018-12-31 13:16:09,0.190s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:16:09,2018-12-31 13:16:12,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/property by name/Page_Chiragh/div_Exit VR""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:16:12,2018-12-31 13:16:12,0.084s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:16:12,2018-12-31 13:16:12,0.661s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:16:12,2018-12-31 13:16:13,0.826s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:16:13,2018-12-31 13:16:13,0.003s,PASSED
+,,,,,,
+Test Cases/home page/view property,Chrome 71.0.3578.98,,2018-12-31 13:16:13,2018-12-31 13:16:37,23.458s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:16:14,2018-12-31 13:16:16,2.429s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:16:16,2018-12-31 13:16:28,12.469s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:16:28,2018-12-31 13:16:30,1.126s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:16:30,2018-12-31 13:16:33,3.003s,PASSED
+"click(findTestObject(""Object Repository/view property/Page_Chiragh/img""))",Chrome 71.0.3578.98,,2018-12-31 13:16:33,2018-12-31 13:16:33,0.265s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:16:33,2018-12-31 13:16:36,3.008s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:16:36,2018-12-31 13:16:36,0.066s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/view property/Page_Chiragh/div_Exit VR""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:16:36,2018-12-31 13:16:36,0.051s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:16:36,2018-12-31 13:16:37,0.783s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:16:37,2018-12-31 13:16:37,0.007s,PASSED
+,,,,,,
+Test Cases/footer/Buy a property,Chrome 71.0.3578.98,,2018-12-31 13:16:37,2018-12-31 13:17:04,27.310s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:16:37,2018-12-31 13:16:39,2.334s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:16:39,2018-12-31 13:16:52,12.621s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:16:52,2018-12-31 13:16:53,1.161s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-31 13:16:53,2018-12-31 13:16:58,5.004s,PASSED
+"click(findTestObject(""Object Repository/Buy a property/Page_Chiragh/a_-Buy a property""))",Chrome 71.0.3578.98,,2018-12-31 13:16:58,2018-12-31 13:16:58,0.145s,PASSED
+delay(5),Chrome 71.0.3578.98,,2018-12-31 13:16:58,2018-12-31 13:17:03,5.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:17:03,2018-12-31 13:17:03,0.051s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:17:03,2018-12-31 13:17:04,0.776s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:17:04,2018-12-31 13:17:04,0.006s,PASSED
+,,,,,,
+Test Cases/footer/contact us-footer,Chrome 71.0.3578.98,,2018-12-31 13:17:04,2018-12-31 13:17:28,23.967s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:17:04,2018-12-31 13:17:07,2.231s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:17:07,2018-12-31 13:17:19,12.700s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:17:19,2018-12-31 13:17:20,1.158s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:17:20,2018-12-31 13:17:23,3.002s,PASSED
+"click(findTestObject(""Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us""))",Chrome 71.0.3578.98,,2018-12-31 13:17:23,2018-12-31 13:17:24,0.160s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:17:24,2018-12-31 13:17:27,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:17:27,2018-12-31 13:17:27,0.608s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:17:27,2018-12-31 13:17:28,0.840s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:17:28,2018-12-31 13:17:28,0.006s,PASSED
+,,,,,,
+Test Cases/footer/Disclaimer-footer,Chrome 71.0.3578.98,,2018-12-31 13:17:28,2018-12-31 13:17:52,23.769s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:17:28,2018-12-31 13:17:31,2.342s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:17:31,2018-12-31 13:17:44,12.939s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:17:44,2018-12-31 13:17:45,1.155s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:17:45,2018-12-31 13:17:48,3.003s,PASSED
+"click(findTestObject(""Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer""))",Chrome 71.0.3578.98,,2018-12-31 13:17:48,2018-12-31 13:17:48,0.151s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:17:48,2018-12-31 13:17:51,3.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:17:51,2018-12-31 13:17:51,0.079s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:17:51,2018-12-31 13:17:52,0.834s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:17:52,2018-12-31 13:17:52,0.007s,PASSED
+,,,,,,
+Test Cases/footer/FAQs-footer,Chrome 71.0.3578.98,,2018-12-31 13:17:52,2018-12-31 13:18:20,28.382s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:17:52,2018-12-31 13:17:54,2.289s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:17:54,2018-12-31 13:18:12,17.633s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:18:12,2018-12-31 13:18:13,1.158s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:18:13,2018-12-31 13:18:16,3.003s,PASSED
+"click(findTestObject(""Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs""))",Chrome 71.0.3578.98,,2018-12-31 13:18:16,2018-12-31 13:18:16,0.161s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:18:16,2018-12-31 13:18:19,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:18:19,2018-12-31 13:18:19,0.048s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:18:19,2018-12-31 13:18:20,0.826s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:18:20,2018-12-31 13:18:20,0.004s,PASSED
+,,,,,,
+Test Cases/footer/How it Works-footer,Chrome 71.0.3578.98,,2018-12-31 13:18:20,2018-12-31 13:18:42,21.889s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:18:21,2018-12-31 13:18:23,2.283s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:18:23,2018-12-31 13:18:34,11.116s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:18:34,2018-12-31 13:18:35,1.171s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:18:35,2018-12-31 13:18:38,3.003s,PASSED
+"click(findTestObject(""Object Repository/How it Works-footer/Page_Chiragh/a_-How it works""))",Chrome 71.0.3578.98,,2018-12-31 13:18:38,2018-12-31 13:18:38,0.154s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:18:38,2018-12-31 13:18:41,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:18:41,2018-12-31 13:18:41,0.046s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:18:41,2018-12-31 13:18:41,0.036s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:18:41,2018-12-31 13:18:42,0.779s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:18:42,2018-12-31 13:18:42,0.006s,PASSED
+,,,,,,
+Test Cases/footer/Privacy Policy-footer,Chrome 71.0.3578.98,,2018-12-31 13:18:42,2018-12-31 13:19:07,24.993s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:18:42,2018-12-31 13:18:45,2.229s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:18:45,2018-12-31 13:18:59,14.263s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:18:59,2018-12-31 13:19:00,1.173s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:00,2018-12-31 13:19:03,3.003s,PASSED
+"click(findTestObject(""Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy""))",Chrome 71.0.3578.98,,2018-12-31 13:19:03,2018-12-31 13:19:03,0.140s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:03,2018-12-31 13:19:06,3.005s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:19:06,2018-12-31 13:19:06,0.088s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:19:06,2018-12-31 13:19:07,0.821s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:19:07,2018-12-31 13:19:07,0.006s,PASSED
+,,,,,,
+Test Cases/footer/repurchase-footer,Chrome 71.0.3578.98,,2018-12-31 13:19:07,2018-12-31 13:19:30,23.165s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:19:07,2018-12-31 13:19:10,2.354s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:19:10,2018-12-31 13:19:22,12.202s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:19:22,2018-12-31 13:19:23,1.172s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:23,2018-12-31 13:19:26,3.003s,PASSED
+"click(findTestObject(""Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase""))",Chrome 71.0.3578.98,,2018-12-31 13:19:26,2018-12-31 13:19:26,0.174s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:26,2018-12-31 13:19:29,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:19:29,2018-12-31 13:19:29,0.072s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:19:29,2018-12-31 13:19:30,0.879s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:19:30,2018-12-31 13:19:30,0.004s,PASSED
+,,,,,,
+Test Cases/footer/Terms and Conditions- footer,Chrome 71.0.3578.98,,2018-12-31 13:19:30,2018-12-31 13:19:53,22.931s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 13:19:31,2018-12-31 13:19:33,2.377s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 13:19:33,2018-12-31 13:19:45,12.044s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 13:19:45,2018-12-31 13:19:46,1.179s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:46,2018-12-31 13:19:49,3.004s,PASSED
+"click(findTestObject(""Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions""))",Chrome 71.0.3578.98,,2018-12-31 13:19:49,2018-12-31 13:19:49,0.156s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 13:19:49,2018-12-31 13:19:52,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions""), 3)",Chrome 71.0.3578.98,,2018-12-31 13:19:52,2018-12-31 13:19:52,0.090s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 13:19:52,2018-12-31 13:19:53,0.793s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 13:19:53,2018-12-31 13:19:53,0.005s,PASSED

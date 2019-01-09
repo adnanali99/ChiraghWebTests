@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+link,Chrome 71.0.3578.98,,2018-12-31 12:54:00,2018-12-31 12:54:42,42.115s,PASSED
+,,,,,,
+Test Cases/home page/login,Chrome 71.0.3578.98,,2018-12-31 12:54:00,2018-12-31 12:54:17,16.883s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 12:54:01,2018-12-31 12:54:05,4.077s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/auth/login"")",Chrome 71.0.3578.98,,2018-12-31 12:54:05,2018-12-31 12:54:17,11.959s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userName (1)""), ""newuser01"")",Chrome 71.0.3578.98,,2018-12-31 12:54:17,2018-12-31 12:54:17,0.240s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Sign In_userPassword (1)""), ""1234567890"")",Chrome 71.0.3578.98,,2018-12-31 12:54:17,2018-12-31 12:54:17,0.176s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Sign In""))",Chrome 71.0.3578.98,,2018-12-31 12:54:17,2018-12-31 12:54:17,0.173s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 12:54:17,2018-12-31 12:54:17,0.027s,PASSED
+,,,,,,
+Test Cases/home page/Contact Us,Chrome 71.0.3578.98,,2018-12-31 12:54:17,2018-12-31 12:54:42,24.640s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2018-12-31 12:54:18,2018-12-31 12:54:21,3.044s,PASSED
+"navigateToUrl(""http://dev-chiragh.surge.sh/"")",Chrome 71.0.3578.98,,2018-12-31 12:54:21,2018-12-31 12:54:33,12.709s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2018-12-31 12:54:33,2018-12-31 12:54:35,1.205s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 12:54:35,2018-12-31 12:54:38,3.056s,PASSED
+"click(findTestObject(""Object Repository/Contact Us/Page_Chiragh/a_CONTACT US""))",Chrome 71.0.3578.98,,2018-12-31 12:54:38,2018-12-31 12:54:38,0.176s,PASSED
+delay(3),Chrome 71.0.3578.98,,2018-12-31 12:54:38,2018-12-31 12:54:41,3.008s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2018-12-31 12:54:41,2018-12-31 12:54:41,0.231s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2018-12-31 12:54:41,2018-12-31 12:54:42,0.790s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2018-12-31 12:54:42,2018-12-31 12:54:42,0.022s,PASSED

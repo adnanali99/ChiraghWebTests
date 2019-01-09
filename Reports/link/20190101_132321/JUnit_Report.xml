@@ -1,0 +1,2722 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="link" time="986" tests="50" failures="3" errors="0">
+   <testsuite name="link" tests="50" failures="3" errors="0" time="986" timestamp="2019-01-01 13:23:24" hostname="HP - DESKTOP-2D7LI1O.mshome.net" id="Test Suites/link">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321"/>
+         <property name="logFiles" value="C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331253921.png, C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331254356.png, C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331912792.png, C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331913195.png"/>
+         <property name="hostName" value="HP - DESKTOP-2D7LI1O.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.0.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="d8d559d5f33b827e3cf81d4492b2c9ea"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/signin/login" classname="Test Cases/signin/login" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:23:24 - [TEST_CASE][PASSED] - Test Cases/signin/login: Test Cases/signin/login
+
+2019-01-01 13:23:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:23:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:23:25 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-01-01 13:23:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:23:28 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/auth/login"): Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:23:38 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:23:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userName (1)"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:23:39 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userPassword (1)"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:23:39 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:23:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:23:39 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2019-01-01 13:23:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:23:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 13:23:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:23:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:23:42 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:23:53 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:23:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:23:54 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:23:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:23:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:23:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:23:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:23:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:24:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:24:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:24:00 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:24:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:24:01 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:24:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:24:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/about us" classname="Test Cases/header/about us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:24:01 - [TEST_CASE][PASSED] - Test Cases/header/about us: Test Cases/header/about us
+
+2019-01-01 13:24:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:24:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:24:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:24:03 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:14 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:24:15 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:24:15 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:24:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:24:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/about us/Page_Chiragh/a_About Us(current)")): Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current)' is clicked on
+
+2019-01-01 13:24:18 - [MESSAGE][PASSED] - Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current)' is clicked on
+
+2019-01-01 13:24:18 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:24:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:24:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT"), 5): Object 'Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT' is present
+
+2019-01-01 13:24:21 - [MESSAGE][PASSED] - Object 'Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT' is present
+
+2019-01-01 13:24:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:24:22 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:24:22 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:24:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:24:22 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/Buy" classname="Test Cases/header/Buy" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:24:22 - [TEST_CASE][PASSED] - Test Cases/header/Buy: Test Cases/header/Buy
+
+2019-01-01 13:24:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:24:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:24:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:24:25 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:36 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:24:37 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:24:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:24:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:24:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy/Page_Chiragh/a_Buy")): Object: 'Object Repository/buy/Page_Chiragh/a_Buy' is clicked on
+
+2019-01-01 13:24:40 - [MESSAGE][PASSED] - Object: 'Object Repository/buy/Page_Chiragh/a_Buy' is clicked on
+
+2019-01-01 13:24:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:24:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:24:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac"), 3): Object 'Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:24:43 - [MESSAGE][PASSED] - Object 'Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:24:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:24:44 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:24:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:24:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:24:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/FAQS" classname="Test Cases/header/FAQS" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:24:44 - [TEST_CASE][PASSED] - Test Cases/header/FAQS: Test Cases/header/FAQS
+
+2019-01-01 13:24:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:24:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:24:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:24:46 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:57 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:24:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:24:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:24:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Page_Chiragh/a_FAQs")): Object: 'Object Repository/FAQS/Page_Chiragh/a_FAQs' is clicked on
+
+2019-01-01 13:25:01 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Page_Chiragh/a_FAQs' is clicked on
+
+2019-01-01 13:25:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions"), 3): Object 'Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:25:04 - [MESSAGE][PASSED] - Object 'Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:25:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:25:05 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:25:05 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:25:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:25:05 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/How it Works" classname="Test Cases/header/How it Works" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:25:05 - [TEST_CASE][PASSED] - Test Cases/header/How it Works: Test Cases/header/How it Works
+
+2019-01-01 13:25:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:25:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:25:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:25:07 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:25:18 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:25:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:25:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:25:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/How it Works/Page_Chiragh/a_How it Works")): Object: 'Object Repository/How it Works/Page_Chiragh/a_How it Works' is clicked on
+
+2019-01-01 13:25:22 - [MESSAGE][PASSED] - Object: 'Object Repository/How it Works/Page_Chiragh/a_How it Works' is clicked on
+
+2019-01-01 13:25:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process"), 5): Object 'Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:25:25 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:25:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:25:26 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:25:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:25:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:25:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/repurchase" classname="Test Cases/header/repurchase" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:25:26 - [TEST_CASE][PASSED] - Test Cases/header/repurchase: Test Cases/header/repurchase
+
+2019-01-01 13:25:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:25:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:25:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:25:28 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:25:40 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:25:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:25:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:25:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/repurchase/Page_Chiragh/a_Repurchase")): Object: 'Object Repository/repurchase/Page_Chiragh/a_Repurchase' is clicked on
+
+2019-01-01 13:25:44 - [MESSAGE][PASSED] - Object: 'Object Repository/repurchase/Page_Chiragh/a_Repurchase' is clicked on
+
+2019-01-01 13:25:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:25:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:25:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR"), 5): Object 'Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR' is present
+
+2019-01-01 13:25:47 - [MESSAGE][PASSED] - Object 'Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR' is present
+
+2019-01-01 13:25:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:25:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:25:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:25:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:25:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/resources" classname="Test Cases/header/resources" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:25:48 - [TEST_CASE][PASSED] - Test Cases/header/resources: Test Cases/header/resources
+
+2019-01-01 13:25:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:25:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:25:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:25:50 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:01 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:26:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:26:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:26:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:26:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RESOURCES/Page_Chiragh/a_Resources")): Object: 'Object Repository/RESOURCES/Page_Chiragh/a_Resources' is clicked on
+
+2019-01-01 13:26:05 - [MESSAGE][PASSED] - Object: 'Object Repository/RESOURCES/Page_Chiragh/a_Resources' is clicked on
+
+2019-01-01 13:26:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:26:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:26:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/RESOURCES/Page_Chiragh/div_Resources"), 3): Object 'Object Repository/RESOURCES/Page_Chiragh/div_Resources' is present
+
+2019-01-01 13:26:08 - [MESSAGE][PASSED] - Object 'Object Repository/RESOURCES/Page_Chiragh/div_Resources' is present
+
+2019-01-01 13:26:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:26:09 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:26:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:26:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:26:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:26:09 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2019-01-01 13:26:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:26:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:26:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:26:11 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:22 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:26:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:26:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:26:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:26:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:26:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:26:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:26:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:26:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:26:29 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:26:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:26:30 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:26:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:26:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:26:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/load more" classname="Test Cases/home page/load more" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:26:30 - [TEST_CASE][PASSED] - Test Cases/home page/load more: Test Cases/home page/load more
+
+2019-01-01 13:26:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:26:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:26:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:26:33 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:43 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:26:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:26:45 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:26:45 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:26:50 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:26:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("load more/Page_Chiragh/div_property id 51556"), 7): Object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is present
+
+2019-01-01 13:26:50 - [MESSAGE][PASSED] - Object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is present
+
+2019-01-01 13:26:50 - [TEST_STEP][PASSED] - attribute2 = getText(findTestObject("load more/Page_Chiragh/div_property id 51556")): Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is: 'PROPERTY ID: 51556
+Burj Khalifa, 3214, Dubai main road
+Dubai Main Road
+234 sqm
+4
+3
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:26:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is: 'PROPERTY ID: 51556
+Burj Khalifa, 3214, Dubai main road
+Dubai Main Road
+234 sqm
+4
+3
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:26:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test/Page_Chiragh/button_LOAD MORE")): Object: 'Object Repository/test/Page_Chiragh/button_LOAD MORE' is clicked on
+
+2019-01-01 13:26:50 - [MESSAGE][PASSED] - Object: 'Object Repository/test/Page_Chiragh/button_LOAD MORE' is clicked on
+
+2019-01-01 13:26:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:26:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:26:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("load more/Page_Chiragh/div_property id 51464"), 7): Object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is present
+
+2019-01-01 13:26:55 - [MESSAGE][PASSED] - Object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is present
+
+2019-01-01 13:26:55 - [TEST_STEP][PASSED] - attribute1 = getText(findTestObject("load more/Page_Chiragh/div_property id 51464")): Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is: 'PROPERTY ID: 51464
+Project: 51464| Exclusive Penthouse|Marina Skyline View|
+Dubai 51464| Emirates Crown, Dubai Marina, Dubai
+7685 sqft
+4
+5
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:26:55 - [MESSAGE][PASSED] - Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is: 'PROPERTY ID: 51464
+Project: 51464| Exclusive Penthouse|Marina Skyline View|
+Dubai 51464| Emirates Crown, Dubai Marina, Dubai
+7685 sqft
+4
+5
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:26:55 - [TEST_STEP][PASSED] - verifyNotMatch("attribute2", "attribute1", false): Actual text 'attribute2' and expected text 'attribute1' are not matched 
+
+2019-01-01 13:26:55 - [MESSAGE][PASSED] - Actual text 'attribute2' and expected text 'attribute1' are not matched 
+
+2019-01-01 13:26:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:26:56 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:26:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:26:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:26:56 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/signin/login" classname="Test Cases/signin/login" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:26:56 - [TEST_CASE][PASSED] - Test Cases/signin/login: Test Cases/signin/login
+
+2019-01-01 13:26:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:26:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:26:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:26:58 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/auth/login"): Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:27:08 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:27:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userName (1)"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:27:08 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:27:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userPassword (1)"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:27:09 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:27:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:27:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:27:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:27:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:27:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/view property by name" classname="Test Cases/home page/view property by name" status="FAILED">
+         <failure type="FAILED" message="Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-01 13:27:09 - [TEST_CASE][FAILED] - Test Cases/home page/view property by name: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:27:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:27:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 13:27:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:27:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:27:12 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:27:23 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:27:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:27:24 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:27:24 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:27:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:27:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit")): Object: 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' is clicked on
+
+2019-01-01 13:27:27 - [MESSAGE][PASSED] - Object: 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' is clicked on
+
+2019-01-01 13:27:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:27:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:27:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/div_Exit VR"), 3): Object 'Object Repository/property by name/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:27:30 - [MESSAGE][PASSED] - Object 'Object Repository/property by name/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:27:30 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3): verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:27:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-01 13:27:34 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331253921.png]]
+
+2019-01-01 13:27:34 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331254356.png]]
+
+2019-01-01 13:27:34 - [MESSAGE][FAILED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:27:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:27:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:27:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-01-01 13:27:09 - [TEST_CASE][FAILED] - Test Cases/home page/view property by name: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/view property" classname="Test Cases/home page/view property" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:27:34 - [TEST_CASE][PASSED] - Test Cases/home page/view property: Test Cases/home page/view property
+
+2019-01-01 13:27:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:27:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 13:27:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:27:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:27:37 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:27:49 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:27:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:27:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:27:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:27:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/view property/Page_Chiragh/img")): Object: 'Object Repository/view property/Page_Chiragh/img' is clicked on
+
+2019-01-01 13:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/view property/Page_Chiragh/img' is clicked on
+
+2019-01-01 13:27:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:27:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:27:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3): Object 'Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present
+
+2019-01-01 13:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present
+
+2019-01-01 13:27:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/view property/Page_Chiragh/div_Exit VR"), 3): Object 'Object Repository/view property/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:27:57 - [MESSAGE][PASSED] - Object 'Object Repository/view property/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:27:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:27:58 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:27:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:27:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:27:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Buy a property" classname="Test Cases/footer/Buy a property" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:27:58 - [TEST_CASE][PASSED] - Test Cases/footer/Buy a property: Test Cases/footer/Buy a property
+
+2019-01-01 13:27:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:27:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:28:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:28:00 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:11 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:28:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:28:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:28:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:28:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Buy a property/Page_Chiragh/a_-Buy a property")): Object: 'Object Repository/Buy a property/Page_Chiragh/a_-Buy a property' is clicked on
+
+2019-01-01 13:28:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Buy a property/Page_Chiragh/a_-Buy a property' is clicked on
+
+2019-01-01 13:28:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:28:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:28:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac"), 3): Object 'Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:28:22 - [MESSAGE][PASSED] - Object 'Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:28:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:28:23 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:28:23 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:28:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:28:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/contact us-footer" classname="Test Cases/footer/contact us-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:28:23 - [TEST_CASE][PASSED] - Test Cases/footer/contact us-footer: Test Cases/footer/contact us-footer
+
+2019-01-01 13:28:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:28:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:28:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:28:25 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:36 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:28:37 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:28:37 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:28:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us")): Object: 'Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us' is clicked on
+
+2019-01-01 13:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us' is clicked on
+
+2019-01-01 13:28:40 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:28:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:28:43 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:28:43 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:28:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:28:44 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:28:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:28:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:28:44 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Disclaimer-footer" classname="Test Cases/footer/Disclaimer-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:28:44 - [TEST_CASE][PASSED] - Test Cases/footer/Disclaimer-footer: Test Cases/footer/Disclaimer-footer
+
+2019-01-01 13:28:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:28:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:28:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:28:46 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:57 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:28:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:28:59 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:28:59 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer")): Object: 'Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer' is clicked on
+
+2019-01-01 13:29:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer' is clicked on
+
+2019-01-01 13:29:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer"), 3): Object 'Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer' is present
+
+2019-01-01 13:29:05 - [MESSAGE][PASSED] - Object 'Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer' is present
+
+2019-01-01 13:29:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:29:06 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:29:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:29:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:29:06 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/FAQs-footer" classname="Test Cases/footer/FAQs-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:29:06 - [TEST_CASE][PASSED] - Test Cases/footer/FAQs-footer: Test Cases/footer/FAQs-footer
+
+2019-01-01 13:29:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:29:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:29:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:29:08 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:29:19 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:29:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:29:20 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:29:20 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:23 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs")): Object: 'Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs' is clicked on
+
+2019-01-01 13:29:23 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs' is clicked on
+
+2019-01-01 13:29:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:26 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions"), 3): Object 'Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:29:26 - [MESSAGE][PASSED] - Object 'Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:29:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:29:27 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:29:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:29:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:29:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/How it Works-footer" classname="Test Cases/footer/How it Works-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:29:27 - [TEST_CASE][PASSED] - Test Cases/footer/How it Works-footer: Test Cases/footer/How it Works-footer
+
+2019-01-01 13:29:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:29:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:29:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:29:29 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:29:40 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:29:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:29:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:29:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/a_-How it works")): Object: 'Object Repository/How it Works-footer/Page_Chiragh/a_-How it works' is clicked on
+
+2019-01-01 13:29:44 - [MESSAGE][PASSED] - Object: 'Object Repository/How it Works-footer/Page_Chiragh/a_-How it works' is clicked on
+
+2019-01-01 13:29:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:29:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:29:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im"), 3): Object 'Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im' is present
+
+2019-01-01 13:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im' is present
+
+2019-01-01 13:29:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process"), 3): Object 'Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:29:47 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:29:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:29:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:29:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:29:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:29:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Privacy Policy-footer" classname="Test Cases/footer/Privacy Policy-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:29:48 - [TEST_CASE][PASSED] - Test Cases/footer/Privacy Policy-footer: Test Cases/footer/Privacy Policy-footer
+
+2019-01-01 13:29:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:29:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:29:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:29:51 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:01 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:30:03 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:30:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy")): Object: 'Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy' is clicked on
+
+2019-01-01 13:30:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy' is clicked on
+
+2019-01-01 13:30:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy"), 3): Object 'Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy' is present
+
+2019-01-01 13:30:09 - [MESSAGE][PASSED] - Object 'Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy' is present
+
+2019-01-01 13:30:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:30:09 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:30:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:30:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:30:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/repurchase-footer" classname="Test Cases/footer/repurchase-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:30:09 - [TEST_CASE][PASSED] - Test Cases/footer/repurchase-footer: Test Cases/footer/repurchase-footer
+
+2019-01-01 13:30:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:30:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:30:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:30:12 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:24 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:30:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:30:25 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase")): Object: 'Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase' is clicked on
+
+2019-01-01 13:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase' is clicked on
+
+2019-01-01 13:30:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1"), 3): Object 'Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1' is present
+
+2019-01-01 13:30:31 - [MESSAGE][PASSED] - Object 'Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1' is present
+
+2019-01-01 13:30:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:30:32 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:30:32 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:30:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:30:32 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Terms and Conditions- footer" classname="Test Cases/footer/Terms and Conditions- footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:30:32 - [TEST_CASE][PASSED] - Test Cases/footer/Terms and Conditions- footer: Test Cases/footer/Terms and Conditions- footer
+
+2019-01-01 13:30:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:30:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:30:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:30:34 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:45 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:30:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:30:46 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:30:46 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:49 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions")): Object: 'Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions' is clicked on
+
+2019-01-01 13:30:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions' is clicked on
+
+2019-01-01 13:30:50 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:30:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions"), 3): Object 'Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:30:53 - [MESSAGE][PASSED] - Object 'Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:30:53 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:30:53 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2019-01-01 13:30:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:30:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:30:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:30:55 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:31:07 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:31:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:31:08 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:31:08 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:31:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:31:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:31:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:31:11 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:31:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:31:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:31:14 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:31:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:31:15 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:31:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:31:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/signin/login" classname="Test Cases/signin/login" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:31:15 - [TEST_CASE][PASSED] - Test Cases/signin/login: Test Cases/signin/login
+
+2019-01-01 13:31:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:31:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:31:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:31:17 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/auth/login"): Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:31:27 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userName (1)"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:31:27 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userPassword (1)"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:31:27 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/about us page/start buying now button" classname="Test Cases/about us page/start buying now button" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:31:27 - [TEST_CASE][PASSED] - Test Cases/about us page/start buying now button: Test Cases/about us page/start buying now button
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:31:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/about us page/start selling now button" classname="Test Cases/about us page/start selling now button" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:31:27 - [TEST_CASE][PASSED] - Test Cases/about us page/start selling now button: Test Cases/about us page/start selling now button
+
+2019-01-01 13:31:28 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:31:28 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:31:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:31:28 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Buy a property" classname="Test Cases/footer/Buy a property" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:31:28 - [TEST_CASE][PASSED] - Test Cases/footer/Buy a property: Test Cases/footer/Buy a property
+
+2019-01-01 13:31:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:31:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 13:31:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:31:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:31:31 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:31:42 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:31:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:31:43 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:31:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:31:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:31:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Buy a property/Page_Chiragh/a_-Buy a property")): Object: 'Object Repository/Buy a property/Page_Chiragh/a_-Buy a property' is clicked on
+
+2019-01-01 13:31:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Buy a property/Page_Chiragh/a_-Buy a property' is clicked on
+
+2019-01-01 13:31:49 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:31:54 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac"), 3): Object 'Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:31:54 - [MESSAGE][PASSED] - Object 'Object Repository/Buy a property/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:31:54 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/contact us-footer" classname="Test Cases/footer/contact us-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:31:54 - [TEST_CASE][PASSED] - Test Cases/footer/contact us-footer: Test Cases/footer/contact us-footer
+
+2019-01-01 13:31:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:31:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:31:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:31:57 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:07 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:32:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:32:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us")): Object: 'Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us' is clicked on
+
+2019-01-01 13:32:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us' is clicked on
+
+2019-01-01 13:32:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:32:15 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:32:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:32:15 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:32:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:32:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:32:15 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/contact-social links" classname="Test Cases/footer/contact-social links" status="FAILED">
+         <failure type="FAILED" message="Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-01 13:32:15 - [TEST_CASE][FAILED] - Test Cases/footer/contact-social links: Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:32:16 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:32:16 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2019-01-01 13:32:16 - [MESSAGE][FAILED] - Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+
+2019-01-01 13:32:16 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:32:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:32:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:32:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-01-01 13:32:15 - [TEST_CASE][FAILED] - Test Cases/footer/contact-social links: Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert (Root cause: com.kms.katalon.core.webui.exception.BrowserNotOpenedException: Browser is not opened
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DESKTOP-2D7LI1O', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: unknown)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$7.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Disclaimer-footer" classname="Test Cases/footer/Disclaimer-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:32:16 - [TEST_CASE][PASSED] - Test Cases/footer/Disclaimer-footer: Test Cases/footer/Disclaimer-footer
+
+2019-01-01 13:32:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:32:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:32:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:32:18 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:29 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:32:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:32:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer")): Object: 'Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer' is clicked on
+
+2019-01-01 13:32:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer' is clicked on
+
+2019-01-01 13:32:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer"), 3): Object 'Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer' is present
+
+2019-01-01 13:32:36 - [MESSAGE][PASSED] - Object 'Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer' is present
+
+2019-01-01 13:32:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:32:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:32:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:32:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:32:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/FAQs-footer" classname="Test Cases/footer/FAQs-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:32:37 - [TEST_CASE][PASSED] - Test Cases/footer/FAQs-footer: Test Cases/footer/FAQs-footer
+
+2019-01-01 13:32:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:32:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:32:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:32:39 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:50 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:32:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:32:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:32:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs")): Object: 'Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs' is clicked on
+
+2019-01-01 13:32:54 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs' is clicked on
+
+2019-01-01 13:32:54 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:32:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:32:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions"), 3): Object 'Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:32:57 - [MESSAGE][PASSED] - Object 'Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:32:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:32:58 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:32:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:32:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:32:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/How it Works-footer" classname="Test Cases/footer/How it Works-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:32:58 - [TEST_CASE][PASSED] - Test Cases/footer/How it Works-footer: Test Cases/footer/How it Works-footer
+
+2019-01-01 13:32:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:32:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:33:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:33:00 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:12 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:33:13 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:33:13 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:33:16 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:33:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/a_-How it works")): Object: 'Object Repository/How it Works-footer/Page_Chiragh/a_-How it works' is clicked on
+
+2019-01-01 13:33:17 - [MESSAGE][PASSED] - Object: 'Object Repository/How it Works-footer/Page_Chiragh/a_-How it works' is clicked on
+
+2019-01-01 13:33:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:33:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im"), 3): Object 'Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im' is present
+
+2019-01-01 13:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works-footer/Page_Chiragh/img_Seller  Buyer Process_b-im' is present
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process"), 3): Object 'Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:33:20 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works-footer/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:33:20 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Privacy Policy-footer" classname="Test Cases/footer/Privacy Policy-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:33:20 - [TEST_CASE][PASSED] - Test Cases/footer/Privacy Policy-footer: Test Cases/footer/Privacy Policy-footer
+
+2019-01-01 13:33:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:33:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:33:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:33:23 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:34 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:33:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:33:35 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:33:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:33:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy")): Object: 'Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy' is clicked on
+
+2019-01-01 13:33:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy' is clicked on
+
+2019-01-01 13:33:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:33:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy"), 3): Object 'Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy' is present
+
+2019-01-01 13:33:42 - [MESSAGE][PASSED] - Object 'Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy' is present
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:33:42 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/repurchase-footer" classname="Test Cases/footer/repurchase-footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:33:42 - [TEST_CASE][PASSED] - Test Cases/footer/repurchase-footer: Test Cases/footer/repurchase-footer
+
+2019-01-01 13:33:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:33:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:33:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:33:45 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:56 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:33:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:33:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:33:57 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase")): Object: 'Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase' is clicked on
+
+2019-01-01 13:34:01 - [MESSAGE][PASSED] - Object: 'Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase' is clicked on
+
+2019-01-01 13:34:01 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:04 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1"), 3): Object 'Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1' is present
+
+2019-01-01 13:34:04 - [MESSAGE][PASSED] - Object 'Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1' is present
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:34:04 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/sell a property" classname="Test Cases/footer/sell a property" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:34:04 - [TEST_CASE][PASSED] - Test Cases/footer/sell a property: Test Cases/footer/sell a property
+
+2019-01-01 13:34:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:34:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:34:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:34:07 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:34:18 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:34:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:34:19 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:34:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell")): Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-01-01 13:34:22 - [MESSAGE][PASSED] - Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-01-01 13:34:22 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - if (true): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Sign In"), 3): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Sign In' is present
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Sign In' is present
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userName"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userPassword"), "1234567890"): Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Owner Details"), 3): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:34:25 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:34:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:34:26 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Subscribe button" classname="Test Cases/footer/Subscribe button" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:34:26 - [TEST_CASE][PASSED] - Test Cases/footer/Subscribe button: Test Cases/footer/Subscribe button
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Terms and Conditions- footer" classname="Test Cases/footer/Terms and Conditions- footer" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:34:26 - [TEST_CASE][PASSED] - Test Cases/footer/Terms and Conditions- footer: Test Cases/footer/Terms and Conditions- footer
+
+2019-01-01 13:34:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:34:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:34:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:34:28 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:34:40 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:34:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:34:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:34:41 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions")): Object: 'Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions' is clicked on
+
+2019-01-01 13:34:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions' is clicked on
+
+2019-01-01 13:34:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:34:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:34:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions"), 3): Object 'Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:34:47 - [MESSAGE][PASSED] - Object 'Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:34:47 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:34:48 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:34:48 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:34:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:34:48 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/about us" classname="Test Cases/header/about us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:34:48 - [TEST_CASE][PASSED] - Test Cases/header/about us: Test Cases/header/about us
+
+2019-01-01 13:34:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:34:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:34:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:34:50 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:01 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:35:02 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:35:02 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/about us/Page_Chiragh/a_About Us(current)")): Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current)' is clicked on
+
+2019-01-01 13:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current)' is clicked on
+
+2019-01-01 13:35:05 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT"), 5): Object 'Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT' is present
+
+2019-01-01 13:35:08 - [MESSAGE][PASSED] - Object 'Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT' is present
+
+2019-01-01 13:35:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:35:09 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:35:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:35:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:35:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/Buy" classname="Test Cases/header/Buy" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:35:09 - [TEST_CASE][PASSED] - Test Cases/header/Buy: Test Cases/header/Buy
+
+2019-01-01 13:35:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:35:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:35:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:35:11 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:22 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:35:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:35:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/buy/Page_Chiragh/a_Buy")): Object: 'Object Repository/buy/Page_Chiragh/a_Buy' is clicked on
+
+2019-01-01 13:35:26 - [MESSAGE][PASSED] - Object: 'Object Repository/buy/Page_Chiragh/a_Buy' is clicked on
+
+2019-01-01 13:35:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac"), 3): Object 'Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:35:29 - [MESSAGE][PASSED] - Object 'Object Repository/buy/Page_Chiragh/div_Current Auctions        Ac' is present
+
+2019-01-01 13:35:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:35:30 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:35:30 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:35:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:35:30 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/FAQS" classname="Test Cases/header/FAQS" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:35:30 - [TEST_CASE][PASSED] - Test Cases/header/FAQS: Test Cases/header/FAQS
+
+2019-01-01 13:35:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:35:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:35:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:35:32 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:43 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:35:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:35:44 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:35:44 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/FAQS/Page_Chiragh/a_FAQs")): Object: 'Object Repository/FAQS/Page_Chiragh/a_FAQs' is clicked on
+
+2019-01-01 13:35:48 - [MESSAGE][PASSED] - Object: 'Object Repository/FAQS/Page_Chiragh/a_FAQs' is clicked on
+
+2019-01-01 13:35:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:35:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions"), 3): Object 'Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:35:51 - [MESSAGE][PASSED] - Object 'Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions' is present
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:35:51 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/How it Works" classname="Test Cases/header/How it Works" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:35:51 - [TEST_CASE][PASSED] - Test Cases/header/How it Works: Test Cases/header/How it Works
+
+2019-01-01 13:35:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:35:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:35:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:35:53 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:05 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:36:06 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:36:06 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:09 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/How it Works/Page_Chiragh/a_How it Works")): Object: 'Object Repository/How it Works/Page_Chiragh/a_How it Works' is clicked on
+
+2019-01-01 13:36:09 - [MESSAGE][PASSED] - Object: 'Object Repository/How it Works/Page_Chiragh/a_How it Works' is clicked on
+
+2019-01-01 13:36:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:12 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process"), 5): Object 'Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:36:12 - [MESSAGE][PASSED] - Object 'Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process' is present
+
+2019-01-01 13:36:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:36:13 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:36:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:36:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:36:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/repurchase" classname="Test Cases/header/repurchase" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:36:13 - [TEST_CASE][PASSED] - Test Cases/header/repurchase: Test Cases/header/repurchase
+
+2019-01-01 13:36:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:36:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:36:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:36:15 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:26 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:36:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:36:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/repurchase/Page_Chiragh/a_Repurchase")): Object: 'Object Repository/repurchase/Page_Chiragh/a_Repurchase' is clicked on
+
+2019-01-01 13:36:30 - [MESSAGE][PASSED] - Object: 'Object Repository/repurchase/Page_Chiragh/a_Repurchase' is clicked on
+
+2019-01-01 13:36:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:33 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR"), 5): Object 'Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR' is present
+
+2019-01-01 13:36:33 - [MESSAGE][PASSED] - Object 'Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR' is present
+
+2019-01-01 13:36:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:36:34 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:36:34 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:36:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:36:34 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/resources" classname="Test Cases/header/resources" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:36:34 - [TEST_CASE][PASSED] - Test Cases/header/resources: Test Cases/header/resources
+
+2019-01-01 13:36:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:36:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:36:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:36:36 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:51 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:36:51 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:36:52 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:36:52 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/RESOURCES/Page_Chiragh/a_Resources")): Object: 'Object Repository/RESOURCES/Page_Chiragh/a_Resources' is clicked on
+
+2019-01-01 13:36:55 - [MESSAGE][PASSED] - Object: 'Object Repository/RESOURCES/Page_Chiragh/a_Resources' is clicked on
+
+2019-01-01 13:36:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:36:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:36:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/RESOURCES/Page_Chiragh/div_Resources"), 3): Object 'Object Repository/RESOURCES/Page_Chiragh/div_Resources' is present
+
+2019-01-01 13:36:58 - [MESSAGE][PASSED] - Object 'Object Repository/RESOURCES/Page_Chiragh/div_Resources' is present
+
+2019-01-01 13:36:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:36:59 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:36:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:36:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:36:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/Sell" classname="Test Cases/header/Sell" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:36:59 - [TEST_CASE][PASSED] - Test Cases/header/Sell: Test Cases/header/Sell
+
+2019-01-01 13:36:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:36:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:37:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:37:02 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:13 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:37:14 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:37:14 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:37:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:37:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell")): Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-01-01 13:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-01-01 13:37:17 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:37:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:37:20 - [TEST_STEP][PASSED] - if (true): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:37:20 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Sign In"), 3): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Sign In' is present
+
+2019-01-01 13:37:20 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Sign In' is present
+
+2019-01-01 13:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userName"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-01-01 13:37:20 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-01-01 13:37:20 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userPassword"), "1234567890"): Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-01-01 13:37:21 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:37:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Owner Details"), 3): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:37:21 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:37:21 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:37:21 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2019-01-01 13:37:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:37:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:37:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:37:24 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:35 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:37:36 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:37:36 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:37:39 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:37:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:37:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-01-01 13:37:39 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:37:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:37:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:37:42 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-01-01 13:37:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:37:43 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/first learn more" classname="Test Cases/home page/first learn more" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:37:43 - [TEST_CASE][PASSED] - Test Cases/home page/first learn more: Test Cases/home page/first learn more
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/load more" classname="Test Cases/home page/load more" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:37:43 - [TEST_CASE][PASSED] - Test Cases/home page/load more: Test Cases/home page/load more
+
+2019-01-01 13:37:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:37:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:37:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:37:45 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:56 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:37:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:37:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:37:57 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:38:02 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:38:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("load more/Page_Chiragh/div_property id 51556"), 7): Object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is present
+
+2019-01-01 13:38:02 - [MESSAGE][PASSED] - Object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is present
+
+2019-01-01 13:38:02 - [TEST_STEP][PASSED] - attribute2 = getText(findTestObject("load more/Page_Chiragh/div_property id 51556")): Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is: 'PROPERTY ID: 51556
+Burj Khalifa, 3214, Dubai main road
+Dubai Main Road
+234 sqm
+4
+3
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:38:02 - [MESSAGE][PASSED] - Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51556' is: 'PROPERTY ID: 51556
+Burj Khalifa, 3214, Dubai main road
+Dubai Main Road
+234 sqm
+4
+3
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/test/Page_Chiragh/button_LOAD MORE")): Object: 'Object Repository/test/Page_Chiragh/button_LOAD MORE' is clicked on
+
+2019-01-01 13:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/test/Page_Chiragh/button_LOAD MORE' is clicked on
+
+2019-01-01 13:38:03 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-01-01 13:38:08 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("load more/Page_Chiragh/div_property id 51464"), 7): Object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is present
+
+2019-01-01 13:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is present
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - attribute1 = getText(findTestObject("load more/Page_Chiragh/div_property id 51464")): Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is: 'PROPERTY ID: 51464
+Project: 51464| Exclusive Penthouse|Marina Skyline View|
+Dubai 51464| Emirates Crown, Dubai Marina, Dubai
+7685 sqft
+4
+5
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:38:08 - [MESSAGE][PASSED] - Text of object 'Object Repository/load more/Page_Chiragh/div_property id 51464' is: 'PROPERTY ID: 51464
+Project: 51464| Exclusive Penthouse|Marina Skyline View|
+Dubai 51464| Emirates Crown, Dubai Marina, Dubai
+7685 sqft
+4
+5
+Auction Ends: 24 Apr 2018
+Time Remaining: 22 : 36 : 33'
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - verifyNotMatch("attribute2", "attribute1", false): Actual text 'attribute2' and expected text 'attribute1' are not matched 
+
+2019-01-01 13:38:08 - [MESSAGE][PASSED] - Actual text 'attribute2' and expected text 'attribute1' are not matched 
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:38:08 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:38:08 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/second learn more" classname="Test Cases/home page/second learn more" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:38:08 - [TEST_CASE][PASSED] - Test Cases/home page/second learn more: Test Cases/home page/second learn more
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/start now button" classname="Test Cases/home page/start now button" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:38:09 - [TEST_CASE][PASSED] - Test Cases/home page/start now button: Test Cases/home page/start now button
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - return null: null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/view property by name" classname="Test Cases/home page/view property by name" status="FAILED">
+         <failure type="FAILED" message="Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+"/>
+         <system-out><![CDATA[2019-01-01 13:38:09 - [TEST_CASE][FAILED] - Test Cases/home page/view property by name: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:38:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:38:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:38:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:38:11 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:38:22 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:38:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:38:23 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:38:23 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:38:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit")): Object: 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' is clicked on
+
+2019-01-01 13:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/property by name/Page_Chiragh/h2_Project 51468 Penthouse wit' is clicked on
+
+2019-01-01 13:38:26 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:38:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:38:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/div_Exit VR"), 3): Object 'Object Repository/property by name/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:38:29 - [MESSAGE][PASSED] - Object 'Object Repository/property by name/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:38:29 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3): verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:38:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-01-01 13:38:33 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331912792.png]]
+
+2019-01-01 13:38:33 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+[[ATTACHMENT|C:\\Users\\HP\\Katalon Studio\\links\\Reports\\link\\20190101_132321\\1546331913195.png]]
+
+2019-01-01 13:38:33 - [MESSAGE][FAILED] - verifyElementPresent(findTestObject("Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)
+
+
+2019-01-01 13:38:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:38:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:38:33 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-01-01 13:38:09 - [TEST_CASE][FAILED] - Test Cases/home page/view property by name: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/view property" classname="Test Cases/home page/view property" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:38:33 - [TEST_CASE][PASSED] - Test Cases/home page/view property: Test Cases/home page/view property
+
+2019-01-01 13:38:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:38:33 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-01-01 13:38:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:38:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:38:36 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:38:47 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:38:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:38:48 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:38:48 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:38:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:38:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/view property/Page_Chiragh/img")): Object: 'Object Repository/view property/Page_Chiragh/img' is clicked on
+
+2019-01-01 13:38:51 - [MESSAGE][PASSED] - Object: 'Object Repository/view property/Page_Chiragh/img' is clicked on
+
+2019-01-01 13:38:51 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:38:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:38:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION"), 3): Object 'Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present
+
+2019-01-01 13:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/view property/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present
+
+2019-01-01 13:38:54 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/view property/Page_Chiragh/div_Exit VR"), 3): Object 'Object Repository/view property/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/view property/Page_Chiragh/div_Exit VR' is present
+
+2019-01-01 13:38:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:38:55 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:38:55 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:38:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:38:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/register/read more" classname="Test Cases/register/read more" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:38:55 - [TEST_CASE][PASSED] - Test Cases/register/read more: Test Cases/register/read more
+
+2019-01-01 13:38:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:38:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:38:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:38:57 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:39:08 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:39:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:39:09 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:39:09 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:39:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:39:12 - [TEST_STEP][PASSED] - click(findTestObject("sign in/Page_Chiragh/div_Login                    o")): Object: 'Object Repository/sign in/Page_Chiragh/div_Login                    o' is clicked on
+
+2019-01-01 13:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sign in/Page_Chiragh/div_Login                    o' is clicked on
+
+2019-01-01 13:39:12 - [TEST_STEP][PASSED] - click(findTestObject("sign in/Page_Chiragh/a_Register")): Object: 'Object Repository/sign in/Page_Chiragh/a_Register' is clicked on
+
+2019-01-01 13:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/sign in/Page_Chiragh/a_Register' is clicked on
+
+2019-01-01 13:39:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:39:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:39:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/read more/Page_Chiragh/a_(Read More)")): Object: 'Object Repository/read more/Page_Chiragh/a_(Read More)' is clicked on
+
+2019-01-01 13:39:15 - [MESSAGE][PASSED] - Object: 'Object Repository/read more/Page_Chiragh/a_(Read More)' is clicked on
+
+2019-01-01 13:39:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/read more/Page_Chiragh/div_Terms  Conditions"), 5): Object 'Object Repository/read more/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:39:15 - [MESSAGE][PASSED] - Object 'Object Repository/read more/Page_Chiragh/div_Terms  Conditions' is present
+
+2019-01-01 13:39:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:39:16 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:39:16 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:39:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:39:16 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/signin/Forgot Password" classname="Test Cases/signin/Forgot Password" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:39:16 - [TEST_CASE][PASSED] - Test Cases/signin/Forgot Password: Test Cases/signin/Forgot Password
+
+2019-01-01 13:39:16 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:39:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:39:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:39:18 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/"): Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:39:29 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/' successfully
+
+2019-01-01 13:39:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-01-01 13:39:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-01-01 13:39:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:39:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/forgot password/Page_Chiragh/div_Login                    o")): Object: 'Object Repository/forgot password/Page_Chiragh/div_Login                    o' is clicked on
+
+2019-01-01 13:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot password/Page_Chiragh/div_Login                    o' is clicked on
+
+2019-01-01 13:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/forgot password/Page_Chiragh/a_Login")): Object: 'Object Repository/forgot password/Page_Chiragh/a_Login' is clicked on
+
+2019-01-01 13:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot password/Page_Chiragh/a_Login' is clicked on
+
+2019-01-01 13:39:33 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-01-01 13:39:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-01-01 13:39:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/forgot password/Page_Chiragh/a_Forgot Password")): Object: 'Object Repository/forgot password/Page_Chiragh/a_Forgot Password' is clicked on
+
+2019-01-01 13:39:36 - [MESSAGE][PASSED] - Object: 'Object Repository/forgot password/Page_Chiragh/a_Forgot Password' is clicked on
+
+2019-01-01 13:39:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/forgot password/Page_Chiragh/form_Forgot Password"), 3): Object 'Object Repository/forgot password/Page_Chiragh/form_Forgot Password' is present
+
+2019-01-01 13:39:36 - [MESSAGE][PASSED] - Object 'Object Repository/forgot password/Page_Chiragh/form_Forgot Password' is present
+
+2019-01-01 13:39:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/forgot password/Page_Chiragh/div_Follow these simple steps"), 3): Object 'Object Repository/forgot password/Page_Chiragh/div_Follow these simple steps' is present
+
+2019-01-01 13:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/forgot password/Page_Chiragh/div_Follow these simple steps' is present
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/forgot password/Page_Chiragh/div_Submit"), 3): Object 'Object Repository/forgot password/Page_Chiragh/div_Submit' is present
+
+2019-01-01 13:39:37 - [MESSAGE][PASSED] - Object 'Object Repository/forgot password/Page_Chiragh/div_Submit' is present
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-01-01 13:39:37 - [MESSAGE][PASSED] - Browser is closed
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/signin/login" classname="Test Cases/signin/login" status="PASSED">
+         <system-out><![CDATA[2019-01-01 13:39:37 - [TEST_CASE][PASSED] - Test Cases/signin/login: Test Cases/signin/login
+
+2019-01-01 13:39:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-01-01 13:39:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-01-01 13:39:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-01-01 13:39:39 - [TEST_STEP][PASSED] - navigateToUrl("http://dev-chiragh.surge.sh/auth/login"): Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:39:49 - [MESSAGE][PASSED] - Navigate to 'http://dev-chiragh.surge.sh/auth/login' successfully
+
+2019-01-01 13:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userName (1)"), "newuser01"): Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:39:49 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userName (1)'
+
+2019-01-01 13:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Sign In_userPassword (1)"), "1234567890"): Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:39:50 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'
+
+2019-01-01 13:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-01-01 13:39:50 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-01-01 13:39:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-01-01 13:39:50 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-01-01 13:23:24 - [TEST_SUITE][FAILED] - link: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-01-01 13:23:24 - [TEST_SUITE][FAILED] - link: Test Cases/home page/view property by name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/property by name/Page_Chiragh/ul_PROPERTY DESCRIPTION' located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='This Property has been viewed by 11 time(s)'])[1]/following::ul[1]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1434)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$4.call(Unknown Source)
+	at view property by name.run(view property by name:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1546331001667.run(TempTestSuite1546331001667.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
