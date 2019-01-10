@@ -28,7 +28,7 @@ WebUI.delay(3)
 if (WebUI.verifyElementPresent(findTestObject('sell/Page_Chiragh/Page_Chiragh/form_Sign In'), 3) == true) {
     WebUI.setText(findTestObject('sell/Page_Chiragh/input_Sign In_userName'), GlobalVariable.userName)
 
-    WebUI.setText(findTestObject('sell/Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.userPassword)
+    WebUI.setText(findTestObject('sell/Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.passWord)
 
     WebUI.click(findTestObject('Page_Chiragh/button_Sign In'))
 

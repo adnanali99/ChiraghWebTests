@@ -17,7 +17,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'12345678'</initValue>
-      <name>userPassword</name>
+      <name>passWord</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>

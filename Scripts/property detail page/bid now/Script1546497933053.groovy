@@ -31,7 +31,7 @@ WebUI.click(findTestObject('Page_Chiragh/div_Sign In                   '))
 
 WebUI.setText(findTestObject('Page_Chiragh/input_Sign In_userName'), GlobalVariable.userName)
 
-WebUI.setText(findTestObject('Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.userPassword)
+WebUI.setText(findTestObject('Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.passWord)
 
 WebUI.click(findTestObject('Page_Chiragh/button_Sign In'))
 
