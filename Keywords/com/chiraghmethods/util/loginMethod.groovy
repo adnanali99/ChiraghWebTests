@@ -21,10 +21,9 @@ import internal.GlobalVariable
 public class loginMethod {
 	@Keyword
 	def Login(def userName, def passWord){
-		
-			WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userName (1)'), GlobalVariable.userName)
-			WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'), GlobalVariable.passWord)
-			WebUI.click(findTestObject('sell/Page_Chiragh/button_Sign In'))
-		
-			}
+
+		WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userName (1)'), GlobalVariable.userName)
+		WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'), GlobalVariable.passWord)
+		WebUI.click(findTestObject('sell/Page_Chiragh/button_Sign In'))
+	}
 }
