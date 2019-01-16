@@ -21,7 +21,7 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 if (RC.getExecutionProfile() == 'default') {
     WebUI.click(findTestObject('property by name/Page_Chiragh/h2_Burj Khalifa 3214 Dubai mai'))
@@ -31,8 +31,10 @@ if (RC.getExecutionProfile() == 'default') {
     WebUI.verifyElementPresent(findTestObject('view property/Page_Chiragh/div_Exit VR (1)'), 3)
 
     WebUI.closeBrowser()
-} else {
-    WebUI.click(findTestObject('property by name/Page_Chiragh/h2_Project 51468 Penthouse wit'))
+}
+
+if (RC.getExecutionProfile() == 'demo') {
+    WebUI.click(findTestObject('property by name/Page_Chiragh/a_Burj Dubai'))
 
     WebUI.delay(3)
 

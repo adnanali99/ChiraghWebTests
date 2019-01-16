@@ -22,11 +22,6 @@ public class loginMethod {
 	@Keyword
 	def Login(def userName, def passWord){
 
-		WebUI.navigateToUrl(GlobalVariable.Url)
-		WebUI.maximizeWindow()
-		WebUI.click(findTestObject('sign in/Page_Chiragh/div_Login                    o'))
-		WebUI.click(findTestObject('sign in/Page_Chiragh/a_Login'))
-		WebUI.delay(3)
 		WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userName (1)'), GlobalVariable.userName)
 		WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Sign In_userPassword (1)'), GlobalVariable.passWord)
 		WebUI.click(findTestObject('sell/Page_Chiragh/button_Sign In'))
