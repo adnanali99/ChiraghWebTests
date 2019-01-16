@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>username already exist</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6224898d-44cc-478d-85bb-413660395064</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>24f836bc-4a3d-4c93-ae9f-c5ed8c12b14a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>de246890-7e26-40f1-b293-e9afecc807db</id>
+      <masked>false</masked>
+      <name>useremail</name>
+   </variable>
+</TestCaseEntity>

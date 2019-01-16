@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/Page_Chiragh/a_Forgot Password'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Forgot PasswordFollow the'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Follow instructions ment'), 'newuser01')
+WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Follow instructions ment'), 'bcmuser')
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Submit'))
 
@@ -43,13 +43,13 @@ WebUI.navigateToUrl('https://accounts.google.com/ServiceLogin/identifier?service
 
 WebUI.delay(5)
 
-WebUI.setText(findTestObject('Object Repository/Page_Gmail/input_Continue to Gmail_identi'), 'fatimazaidi1995@gmail.com')
+WebUI.setText(findTestObject('Object Repository/Page_Gmail/input_Continue to Gmail_identi'), 'testbcm11@gmail.com')
 
 WebUI.click(findTestObject('Object Repository/Page_Gmail/content_Next'))
 
 WebUI.delay(5)
 
-WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts'), 'GT0PhHqn7MN+Jmsb7gVpSA==')
+WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts'), 'OVd19+BoNkudRYAqFhSkbzPGYmVcD14T')
 
 WebUI.click(findTestObject('Object Repository/Page_Gmail/span_Next'))
 
