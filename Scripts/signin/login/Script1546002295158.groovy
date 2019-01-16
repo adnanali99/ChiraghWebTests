@@ -14,23 +14,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.Url)
-
-WebUI.maximizeWindow()
-
-WebUI.click(findTestObject('sign in/Page_Chiragh/div_Login                    o'))
-
-WebUI.click(findTestObject('sign in/Page_Chiragh/a_Login'))
-
-WebUI.delay(3)
-
 CustomKeywords.'com.chiraghmethods.util.loginMethod.Login'(GlobalVariable.userName, GlobalVariable.passWord)
 
 //WebUI.click(findTestObject('sell/Page_Chiragh/button_Sign In'))
 WebUI.delay(3)
-
 WebUI.verifyTextPresent(GlobalVariable.userName, true)
-
 WebUI.closeBrowser()
 
