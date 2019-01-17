@@ -6,21 +6,25 @@
    <elementGuidId>4fa9e0d8-c3da-4680-b21a-683ca1863aa1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'http://dev-chiragh.surge.sh/auth/resetPassword/7733af823c70060e587ffe20c23f8381' or . = 'http://dev-chiragh.surge.sh/auth/resetPassword/7733af823c70060e587ffe20c23f8381')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id=':9v']/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>

@@ -16,7 +16,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://dev.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
@@ -55,8 +55,6 @@ for (def rowNum = 1; rowNum <= 2; rowNum++) {
 
     if (WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_Username already exist. Tr'), 9, FailureHandling.OPTIONAL) == 
     true) {
-	
-	
         //WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Create Username_userName'), username)
         WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Create Username_userName'), findTestData('testData').getValue(
                 1, rowNum))
@@ -64,9 +62,7 @@ for (def rowNum = 1; rowNum <= 2; rowNum++) {
         WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
 
         WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_You are almost there'))
-    } 
-	else {
-		
+    } else {
         WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_Verify your email address'))
 
         WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_You are almost thereVerify'))

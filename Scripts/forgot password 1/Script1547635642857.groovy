@@ -15,23 +15,25 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://dev.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
+
+WebUI.maximizeWindow()
+
+WebUI.waitForPageLoad(3)
 
 WebUI.click(findTestObject('Page_Chiragh/Page_Chiragh/div_Login or Register'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/a_Login'))
 
-WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Sign In User Name is requ'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/form_Sign In User Name is requ'), 3)
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/a_Forgot Password'))
 
-WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Forgot PasswordFollow the'))
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/form_Forgot PasswordFollow the'), 3)
 
 WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Follow instructions ment'), 'bcmuser')
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Submit'))
-
-WebUI.click(findTestObject('Object Repository/Page_Chiragh/snack-bar-container_See your e'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/span_See your email for passwo'))
 
@@ -56,9 +58,6 @@ WebUI.click(findTestObject('Object Repository/Page_Gmail/span_Next'))
 WebUI.click(findTestObject('Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/span_Chiragh Reset Password'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
-
-WebUI.scrollToElement(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - testb/a_httpdev-chiragh.surge.shauth'), 
-    3)
 
 //WebUI.verifyElementPresent(findTestObject('Page_Chiragh Reset Password - fatim/a_httpdev-chiragh.surge.shauth'), 5)
 WebUI.click(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - testb/a_httpdev-chiragh.surge.shauth'))
