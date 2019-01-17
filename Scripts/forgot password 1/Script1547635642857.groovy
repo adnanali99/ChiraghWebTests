@@ -53,20 +53,23 @@ WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts
 
 WebUI.click(findTestObject('Object Repository/Page_Gmail/span_Next'))
 
-WebUI.click(findTestObject('Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (839) - fatimazaidi1995g/span_Chiragh Reset Password'))
+WebUI.click(findTestObject('Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/span_Chiragh Reset Password'))
 
 WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
+WebUI.scrollToElement(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - testb/a_httpdev-chiragh.surge.shauth'), 
+    3)
+
 //WebUI.verifyElementPresent(findTestObject('Page_Chiragh Reset Password - fatim/a_httpdev-chiragh.surge.shauth'), 5)
-WebUI.click(findTestObject('Object Repository/Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - fatim/a_httpdev-chiragh.surge.shauth'))
+WebUI.click(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - testb/a_httpdev-chiragh.surge.shauth'))
 
 WebUI.switchToWindowTitle('Chiragh')
 
-WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Reset Password'))
+//WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Reset Password'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userPassword'), 'RigbBhfdqOBDK95asqKeHw==')
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userPassword'), 'RigbBhfdqOBDK95asqKeHw==')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userConfirmPassword'), 'RigbBhfdqOBDK95asqKeHw==')
+//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userConfirmPassword'), 'RigbBhfdqOBDK95asqKeHw==')
 
-WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Reset Password'))
+//	WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Reset Password'))
 
