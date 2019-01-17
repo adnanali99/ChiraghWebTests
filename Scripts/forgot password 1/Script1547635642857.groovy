@@ -65,11 +65,11 @@ WebUI.click(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Res
 
 WebUI.switchToWindowTitle('Chiragh')
 
-//WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Reset Password'))
+WebUI.click(findTestObject('Object Repository/Page_Chiragh/form_Reset Password'))
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userPassword'), 'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userPassword'), 'RigbBhfdqOBDK95asqKeHw==')
 
-//WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userConfirmPassword'), 'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input__userConfirmPassword'), 'RigbBhfdqOBDK95asqKeHw==')
 
-//	WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Reset Password'))
+WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Reset Password'))
 

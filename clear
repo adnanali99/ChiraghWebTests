@@ -1,0 +1,70 @@
+[33mcommit deeaa390d302c32065954d22338f8166f44534db[m[33m ([m[1;36mHEAD -> [m[1;32mForgotPassword[m[33m)[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Thu Jan 17 10:59:41 2019 +0500
+
+    Updated forgot password testcase
+
+[33mcommit 7d5ae0db35d679aef169fff1869780c2f0a02581[m[33m ([m[1;32mmaster[m[33m, [m[1;32mdevelop[m[33m)[m
+Merge: 1e5b7d4 d66f47a
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Wed Jan 16 17:22:46 2019 +0500
+
+    Merge branch 'develop' of https://github.com/fatimazaidi123/ChiraghWebTests.git
+
+[33mcommit 1e5b7d407b863d17fedbd3bc182927209f346948[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Wed Jan 16 17:22:23 2019 +0500
+
+    Committing unfinished testcases locally.
+
+[33mcommit d66f47ad826883036aa24bdc346dd7a54074d687[m[33m ([m[1;31morigin/develop[m[33m)[m
+Merge: 826caca 0c980bf
+Author: hp <hp@Adnan>
+Date:   Wed Jan 16 17:03:49 2019 +0500
+
+    Conflict resolved by theirs
+
+[33mcommit 826cacabb147219ae9d380387355df8f020d8957[m
+Author: hp <hp@Adnan>
+Date:   Wed Jan 16 16:43:47 2019 +0500
+
+    Committing unfinished testcases
+
+[33mcommit 0c980bfe57c6d4ac51a8b0a0300849dad3766d98[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Wed Jan 16 15:50:26 2019 +0500
+
+    forgot password
+
+[33mcommit ef678f0cd1955d3e5e6f43076518080d5b04fad2[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Fri Jan 11 16:39:08 2019 +0500
+
+    changes in profile demo.
+
+[33mcommit 6bbb90b9263d98de2629b5c4c3a76588e10faaf7[m
+Author: hp <hp@Adnan>
+Date:   Thu Jan 10 15:05:45 2019 +0500
+
+    1. Added Custom keyword for Login feature. Now Wherever we need login we
+    can use this keyword.
+    
+    2. Updated existing Login test using the same new custom keyword.
+
+[33mcommit a53cf5b8b21288fd6bf55f1f897b5ff953f032d5[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Thu Jan 10 11:51:21 2019 +0500
+
+    default profile: IP is replaced with dev link.
+
+[33mcommit f6b73c5ea95458eb5dab8ae82c3169b82e98e839[m
+Author: HP <HP@DESKTOP-2D7LI1O>
+Date:   Wed Jan 9 15:09:17 2019 +0500
+
+    Cloning all project to Git Repo
+
+[33mcommit 6c5a931dc2694eff8fed660f918bfb87c0d28770[m
+Author: fatimazaidi123 <46517317+fatimazaidi123@users.noreply.github.com>
+Date:   Wed Jan 9 14:57:13 2019 +0500
+
+    Initial commit
