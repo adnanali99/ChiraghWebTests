@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Page_Chiragh/Page_Chiragh/div_Login or Register'))
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/a_Login'))
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/form_Sign In User Name is requ'), 3)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/form_Sign In User Name is requ'), 5)
 
 WebUI.click(findTestObject('Object Repository/Page_Chiragh/a_Forgot Password'))
 
@@ -55,9 +55,9 @@ WebUI.setEncryptedText(findTestObject('Page_Gmail/input_Too many failed attempts
 
 WebUI.click(findTestObject('Object Repository/Page_Gmail/span_Next'))
 
-WebUI.click(findTestObject('Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/span_Chiragh Reset Password'))
+WebUI.click(findTestObject('Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'))
 
-WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3)
 
 //WebUI.verifyElementPresent(findTestObject('Page_Chiragh Reset Password - fatim/a_httpdev-chiragh.surge.shauth'), 5)
 WebUI.click(findTestObject('Page_Chiragh Reset Password - fatim/Page_Chiragh Reset Password - testb/a_httpdev-chiragh.surge.shauth'))

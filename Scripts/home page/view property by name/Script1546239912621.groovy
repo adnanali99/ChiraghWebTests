@@ -21,9 +21,14 @@ WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
-WebUI.delay(5)
+//WebUI.delay(5)
 
 if (RC.getExecutionProfile() == 'default') {
+	
+	//WebUI.delay(5)
+	
+	WebUI.scrollToElement(findTestObject('property by name/Page_Chiragh/h2_Burj Khalifa 3214 Dubai mai'))
+	
     WebUI.click(findTestObject('property by name/Page_Chiragh/h2_Burj Khalifa 3214 Dubai mai'))
 
     WebUI.delay(3)
