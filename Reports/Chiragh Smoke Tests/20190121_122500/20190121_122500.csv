@@ -1,0 +1,375 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Chiragh Smoke Tests,Chrome 71.0.3578.98,,2019-01-21 12:25:03,2019-01-21 12:44:45,19m - 41.329s,FAILED
+,,,,,,
+Test Cases/signin/Forgot Password,Chrome 71.0.3578.98,,2019-01-21 12:25:04,2019-01-21 12:26:12,1m - 8.537s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:25:04,2019-01-21 12:25:08,4.016s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:25:08,2019-01-21 12:26:04,55.607s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:26:04,2019-01-21 12:26:05,1.214s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:26:05,2019-01-21 12:26:08,3.053s,PASSED
+"click(findTestObject(""Object Repository/forgot password/Page_Chiragh/div_Login                    o""))",Chrome 71.0.3578.98,,2019-01-21 12:26:08,2019-01-21 12:26:08,0.193s,PASSED
+"click(findTestObject(""Object Repository/forgot password/Page_Chiragh/a_Login""))",Chrome 71.0.3578.98,,2019-01-21 12:26:08,2019-01-21 12:26:08,0.111s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:26:08,2019-01-21 12:26:11,3.004s,PASSED
+"click(findTestObject(""Object Repository/forgot password/Page_Chiragh/a_Forgot Password""))",Chrome 71.0.3578.98,,2019-01-21 12:26:11,2019-01-21 12:26:11,0.167s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/forgot password/Page_Chiragh/form_Forgot Password""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:26:11,2019-01-21 12:26:11,0.065s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/forgot password/Page_Chiragh/div_Follow these simple steps""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:26:11,2019-01-21 12:26:12,0.037s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/forgot password/Page_Chiragh/div_Submit""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:26:12,2019-01-21 12:26:12,0.050s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:26:12,2019-01-21 12:26:12,0.691s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:26:12,2019-01-21 12:26:12,0.072s,PASSED
+,,,,,,
+Test Cases/register user/useremail already exist,Chrome 71.0.3578.98,,2019-01-21 12:26:12,2019-01-21 12:26:58,45.425s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:26:13,2019-01-21 12:26:15,2.231s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:26:15,2019-01-21 12:26:30,14.647s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:26:30,2019-01-21 12:26:31,1.136s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/div_Login or Register""))",Chrome 71.0.3578.98,,2019-01-21 12:26:31,2019-01-21 12:26:31,0.187s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/a_Register""))",Chrome 71.0.3578.98,,2019-01-21 12:26:31,2019-01-21 12:26:31,0.203s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_First Name_userFirstName""), ""new"")",Chrome 71.0.3578.98,,2019-01-21 12:26:31,2019-01-21 12:26:34,2.368s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Last Name_userLastName""), ""user"")",Chrome 71.0.3578.98,,2019-01-21 12:26:34,2019-01-21 12:26:34,0.178s,PASSED
+username = RandomStringUtils.randomAlphanumeric(8),Chrome 71.0.3578.98,,2019-01-21 12:26:34,2019-01-21 12:26:34,0.016s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Create Username_userName""), username)",Chrome 71.0.3578.98,,2019-01-21 12:26:34,2019-01-21 12:26:34,0.320s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Chiragh/input_Create Password_userPass""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 71.0.3578.98,,2019-01-21 12:26:34,2019-01-21 12:26:34,0.351s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Chiragh/input_Confirm Password_userCon""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 71.0.3578.98,,2019-01-21 12:26:34,2019-01-21 12:26:35,0.235s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Your Email_userEmail""), ""a@gmail.com"")",Chrome 71.0.3578.98,,2019-01-21 12:26:35,2019-01-21 12:26:35,0.426s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/span_XXX""))",Chrome 71.0.3578.98,,2019-01-21 12:26:35,2019-01-21 12:26:35,0.240s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Soon_select2-search__fie""), ""971"")",Chrome 71.0.3578.98,,2019-01-21 12:26:35,2019-01-21 12:26:36,0.253s,PASSED
+"sendKeys(findTestObject(""Object Repository/Page_Chiragh/input_Soon_select2-search__fie""), Keys.chord(ENTER))",Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:36,0.107s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Mobile Number_mobileNo""), ""454544554"")",Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:36,0.218s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/span_Accept Terms  Conditions_""))",Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:36,0.114s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Register""))",Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:36,0.143s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Register""))",Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:36,0.103s,PASSED
+delay(10),Chrome 71.0.3578.98,,2019-01-21 12:26:36,2019-01-21 12:26:46,10.004s,PASSED
+"if (verifyTextPresent(""An account with this email already exist."", true))",Chrome 71.0.3578.98,,2019-01-21 12:26:46,2019-01-21 12:26:58,11.534s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:26:58,2019-01-21 12:26:58,0.006s,PASSED
+,,,,,,
+Test Cases/register user/username already exist,Chrome 71.0.3578.98,,2019-01-21 12:26:58,2019-01-21 12:28:15,1m - 16.723s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:26:58,2019-01-21 12:27:01,2.437s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:27:01,2019-01-21 12:27:38,36.962s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:27:38,2019-01-21 12:27:39,1.152s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/div_Login or Register""))",Chrome 71.0.3578.98,,2019-01-21 12:27:39,2019-01-21 12:27:39,0.201s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/a_Register""))",Chrome 71.0.3578.98,,2019-01-21 12:27:39,2019-01-21 12:27:39,0.144s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_First Name_userFirstName""), ""new"")",Chrome 71.0.3578.98,,2019-01-21 12:27:39,2019-01-21 12:27:41,1.887s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Last Name_userLastName""), ""user"")",Chrome 71.0.3578.98,,2019-01-21 12:27:41,2019-01-21 12:27:41,0.195s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Create Username_userName""), userName)",Chrome 71.0.3578.98,,2019-01-21 12:27:41,2019-01-21 12:27:41,0.209s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Chiragh/input_Create Password_userPass""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 71.0.3578.98,,2019-01-21 12:27:41,2019-01-21 12:27:42,0.205s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Chiragh/input_Confirm Password_userCon""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 71.0.3578.98,,2019-01-21 12:27:42,2019-01-21 12:27:42,0.173s,PASSED
+email = RandomStringUtils.randomAlphanumeric(8),Chrome 71.0.3578.98,,2019-01-21 12:27:42,2019-01-21 12:27:42,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Your Email_userEmail""), email + ""@gmail.com"")",Chrome 71.0.3578.98,,2019-01-21 12:27:42,2019-01-21 12:27:42,0.370s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/span_XXX""))",Chrome 71.0.3578.98,,2019-01-21 12:27:42,2019-01-21 12:27:42,0.159s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Soon_select2-search__fie""), ""971"")",Chrome 71.0.3578.98,,2019-01-21 12:27:42,2019-01-21 12:28:15,32.263s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:28:15,2019-01-21 12:28:15,0.000s,PASSED
+,,,,,,
+Test Cases/register/read more,Chrome 71.0.3578.98,,2019-01-21 12:28:15,2019-01-21 12:28:40,25.268s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:28:15,2019-01-21 12:28:18,3.141s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:28:18,2019-01-21 12:28:32,13.441s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:28:32,2019-01-21 12:28:33,1.157s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:28:33,2019-01-21 12:28:36,3.003s,PASSED
+"click(findTestObject(""sign in/Page_Chiragh/div_Login                    o""))",Chrome 71.0.3578.98,,2019-01-21 12:28:36,2019-01-21 12:28:36,0.113s,PASSED
+"click(findTestObject(""sign in/Page_Chiragh/a_Register""))",Chrome 71.0.3578.98,,2019-01-21 12:28:36,2019-01-21 12:28:36,0.112s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:28:36,2019-01-21 12:28:39,3.003s,PASSED
+"click(findTestObject(""Object Repository/read more/Page_Chiragh/a_(Read More)""))",Chrome 71.0.3578.98,,2019-01-21 12:28:39,2019-01-21 12:28:39,0.212s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/read more/Page_Chiragh/div_Terms  Conditions""), 5)",Chrome 71.0.3578.98,,2019-01-21 12:28:39,2019-01-21 12:28:39,0.037s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:28:39,2019-01-21 12:28:40,0.664s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:28:40,2019-01-21 12:28:40,0.004s,PASSED
+,,,,,,
+Test Cases/home page/Contact Us,Chrome 71.0.3578.98,,2019-01-21 12:28:40,2019-01-21 12:29:05,25.290s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:28:40,2019-01-21 12:28:43,2.369s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:28:43,2019-01-21 12:28:54,11.239s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:28:54,2019-01-21 12:28:55,1.183s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:28:55,2019-01-21 12:28:58,3.004s,PASSED
+"click(findTestObject(""Object Repository/Contact Us/Page_Chiragh/a_CONTACT US""))",Chrome 71.0.3578.98,,2019-01-21 12:28:58,2019-01-21 12:28:58,0.152s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:28:58,2019-01-21 12:29:01,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:29:01,2019-01-21 12:29:05,4.027s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:29:05,2019-01-21 12:29:05,0.003s,PASSED
+,,,,,,
+Test Cases/home page/first learn more,Chrome 71.0.3578.98,,2019-01-21 12:29:05,2019-01-21 12:29:19,13.744s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:29:05,2019-01-21 12:29:09,3.138s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:29:09,2019-01-21 12:29:18,9.276s,PASSED
+"click(findTestObject(""Object Repository/first learn more/Page_Chiragh/button_LEARN MORE""))",Chrome 71.0.3578.98,,2019-01-21 12:29:18,2019-01-21 12:29:18,0.184s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-21 12:29:18,2019-01-21 12:29:19,0.807s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:29:19,2019-01-21 12:29:19,0.003s,PASSED
+,,,,,,
+Test Cases/home page/load more,Chrome 71.0.3578.98,,2019-01-21 12:29:19,2019-01-21 12:30:06,46.933s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:29:19,2019-01-21 12:29:22,2.985s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:29:22,2019-01-21 12:29:56,33.334s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:29:56,2019-01-21 12:29:57,1.153s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:29:57,2019-01-21 12:30:00,3.003s,PASSED
+"verifyElementPresent(findTestObject(""load more/Page_Chiragh/div_property id 51556 (1)""), 7)",Chrome 71.0.3578.98,,2019-01-21 12:30:00,2019-01-21 12:30:00,0.056s,PASSED
+"attribute2 = getText(findTestObject(""load more/Page_Chiragh/div_property id 51556 (1)""))",Chrome 71.0.3578.98,,2019-01-21 12:30:00,2019-01-21 12:30:00,0.102s,PASSED
+"click(findTestObject(""Object Repository/test/Page_Chiragh/button_LOAD MORE""))",Chrome 71.0.3578.98,,2019-01-21 12:30:00,2019-01-21 12:30:00,0.142s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:30:00,2019-01-21 12:30:05,5.002s,PASSED
+"verifyElementPresent(findTestObject(""load more/Page_Chiragh/div_property id 51466""), 7)",Chrome 71.0.3578.98,,2019-01-21 12:30:05,2019-01-21 12:30:05,0.056s,PASSED
+"attribute1 = getText(findTestObject(""load more/Page_Chiragh/div_property id 51466""))",Chrome 71.0.3578.98,,2019-01-21 12:30:05,2019-01-21 12:30:05,0.078s,PASSED
+"verifyNotMatch(""attribute2"", ""attribute1"", false)",Chrome 71.0.3578.98,,2019-01-21 12:30:05,2019-01-21 12:30:05,0.013s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:30:05,2019-01-21 12:30:06,0.681s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:30:06,2019-01-21 12:30:06,0.004s,PASSED
+,,,,,,
+Test Cases/home page/second learn more,Chrome 71.0.3578.98,,2019-01-21 12:30:06,2019-01-21 12:30:24,17.791s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:30:06,2019-01-21 12:30:08,2.289s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:30:08,2019-01-21 12:30:21,12.881s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:30:21,2019-01-21 12:30:22,1.155s,PASSED
+"click(findTestObject(""Object Repository/second learn more/Page_Chiragh/button_LEARN MORE""))",Chrome 71.0.3578.98,,2019-01-21 12:30:22,2019-01-21 12:30:23,0.194s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-21 12:30:23,2019-01-21 12:30:24,1.039s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:30:24,2019-01-21 12:30:24,0.001s,PASSED
+,,,,,,
+Test Cases/home page/start now button,Chrome 71.0.3578.98,,2019-01-21 12:30:24,2019-01-21 12:30:46,22.698s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:30:24,2019-01-21 12:30:27,3.133s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:30:27,2019-01-21 12:30:40,12.960s,PASSED
+"click(findTestObject(""Object Repository/start now button/Page_Chiragh/button_START NOW""))",Chrome 71.0.3578.98,,2019-01-21 12:30:40,2019-01-21 12:30:40,0.233s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-21 12:30:40,2019-01-21 12:30:40,0.085s,PASSED
+"if (verifyElementPresent(findTestObject(""sell/Page_Chiragh/Page_Chiragh/form_Sign In""), 3) == true)",Chrome 71.0.3578.98,,2019-01-21 12:30:40,2019-01-21 12:30:46,5.291s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:30:46,2019-01-21 12:30:46,0.664s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:30:46,2019-01-21 12:30:46,0.003s,PASSED
+,,,,,,
+Test Cases/home page/view property by name,Chrome 71.0.3578.98,,2019-01-21 12:30:46,2019-01-21 12:31:39,52.838s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:30:47,2019-01-21 12:30:49,2.375s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:30:49,2019-01-21 12:31:01,11.668s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:31:01,2019-01-21 12:31:02,1.160s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:31:02,2019-01-21 12:31:07,5.003s,PASSED
+"if (getExecutionProfile() == ""default"")",Chrome 71.0.3578.98,,2019-01-21 12:31:07,2019-01-21 12:31:39,32.373s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:31:39,2019-01-21 12:31:39,0.000s,PASSED
+,,,,,,
+Test Cases/home page/view property,Chrome 71.0.3578.98,,2019-01-21 12:31:39,2019-01-21 12:32:17,37.493s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:31:39,2019-01-21 12:31:42,2.930s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:31:42,2019-01-21 12:32:08,26.099s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:32:08,2019-01-21 12:32:10,1.148s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:10,2019-01-21 12:32:13,3.003s,PASSED
+"click(findTestObject(""Object Repository/view property/Page_Chiragh/img (1)""))",Chrome 71.0.3578.98,,2019-01-21 12:32:13,2019-01-21 12:32:13,0.217s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:13,2019-01-21 12:32:16,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/view property/Page_Chiragh/div_Exit VR (1)""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:32:16,2019-01-21 12:32:16,0.077s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:32:16,2019-01-21 12:32:17,0.705s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:32:17,2019-01-21 12:32:17,0.004s,PASSED
+,,,,,,
+Test Cases/header/about us,Chrome 71.0.3578.98,,2019-01-21 12:32:17,2019-01-21 12:32:44,26.947s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:32:17,2019-01-21 12:32:19,2.418s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:32:19,2019-01-21 12:32:36,16.192s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:32:36,2019-01-21 12:32:37,1.152s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:37,2019-01-21 12:32:40,3.002s,PASSED
+"click(findTestObject(""Object Repository/about us/Page_Chiragh/a_About Us(current)""))",Chrome 71.0.3578.98,,2019-01-21 12:32:40,2019-01-21 12:32:40,0.156s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:40,2019-01-21 12:32:43,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/about us/Page_Chiragh/div_MISSION STATEMENT""), 5)",Chrome 71.0.3578.98,,2019-01-21 12:32:43,2019-01-21 12:32:43,0.047s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:32:43,2019-01-21 12:32:44,0.676s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:32:44,2019-01-21 12:32:44,0.005s,PASSED
+,,,,,,
+Test Cases/header/Buy,Chrome 71.0.3578.98,,2019-01-21 12:32:44,2019-01-21 12:33:02,18.016s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:32:44,2019-01-21 12:32:46,2.511s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:32:46,2019-01-21 12:32:54,7.294s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:32:54,2019-01-21 12:32:55,1.134s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:55,2019-01-21 12:32:58,3.002s,PASSED
+"click(findTestObject(""buy/Page_Chiragh/a_Buy""))",Chrome 71.0.3578.98,,2019-01-21 12:32:58,2019-01-21 12:32:58,0.103s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:32:58,2019-01-21 12:33:01,3.003s,PASSED
+"verifyElementPresent(findTestObject(""buy/new/Page_Chiragh/div_Current Auctions        Ac""), 5)",Chrome 71.0.3578.98,,2019-01-21 12:33:01,2019-01-21 12:33:01,0.047s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:33:01,2019-01-21 12:33:02,0.676s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:33:02,2019-01-21 12:33:02,0.004s,PASSED
+,,,,,,
+Test Cases/header/FAQS,Chrome 71.0.3578.98,,2019-01-21 12:33:02,2019-01-21 12:33:25,23.526s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:33:02,2019-01-21 12:33:04,2.252s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:33:04,2019-01-21 12:33:17,12.938s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:33:17,2019-01-21 12:33:18,1.166s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:33:18,2019-01-21 12:33:21,3.001s,PASSED
+"click(findTestObject(""Object Repository/FAQS/Page_Chiragh/a_FAQs""))",Chrome 71.0.3578.98,,2019-01-21 12:33:21,2019-01-21 12:33:21,0.120s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:33:21,2019-01-21 12:33:24,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/FAQS/Page_Chiragh/div_Frequently Asked Questions""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:33:24,2019-01-21 12:33:24,0.085s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:33:24,2019-01-21 12:33:25,0.681s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:33:25,2019-01-21 12:33:25,0.004s,PASSED
+,,,,,,
+Test Cases/header/How it Works,Chrome 71.0.3578.98,,2019-01-21 12:33:25,2019-01-21 12:33:55,30.080s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:33:25,2019-01-21 12:33:28,2.252s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:33:28,2019-01-21 12:33:47,19.549s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:33:47,2019-01-21 12:33:48,1.162s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:33:48,2019-01-21 12:33:51,3.005s,PASSED
+"click(findTestObject(""Object Repository/How it Works/Page_Chiragh/a_How it Works""))",Chrome 71.0.3578.98,,2019-01-21 12:33:51,2019-01-21 12:33:52,0.113s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:33:52,2019-01-21 12:33:55,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/How it Works/Page_Chiragh/div_Seller  Buyer Process""), 5)",Chrome 71.0.3578.98,,2019-01-21 12:33:55,2019-01-21 12:33:55,0.045s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:33:55,2019-01-21 12:33:55,0.666s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:33:55,2019-01-21 12:33:55,0.005s,PASSED
+,,,,,,
+Test Cases/header/repurchase,Chrome 71.0.3578.98,,2019-01-21 12:33:55,2019-01-21 12:34:36,40.298s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:33:56,2019-01-21 12:33:58,2.426s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:33:58,2019-01-21 12:34:28,29.574s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:34:28,2019-01-21 12:34:29,1.173s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:34:29,2019-01-21 12:34:32,3.000s,PASSED
+"click(findTestObject(""Object Repository/repurchase/Page_Chiragh/a_Repurchase""))",Chrome 71.0.3578.98,,2019-01-21 12:34:32,2019-01-21 12:34:32,0.119s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:34:32,2019-01-21 12:34:35,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/repurchase/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR""), 5)",Chrome 71.0.3578.98,,2019-01-21 12:34:35,2019-01-21 12:34:35,0.052s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:34:35,2019-01-21 12:34:36,0.670s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:34:36,2019-01-21 12:34:36,0.005s,PASSED
+,,,,,,
+Test Cases/header/resources,Chrome 71.0.3578.98,,2019-01-21 12:34:36,2019-01-21 12:34:55,19.501s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:34:36,2019-01-21 12:34:38,2.449s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:34:38,2019-01-21 12:34:47,8.691s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:34:47,2019-01-21 12:34:48,1.119s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:34:48,2019-01-21 12:34:51,3.003s,PASSED
+"click(findTestObject(""Object Repository/RESOURCES/Page_Chiragh/a_Resources""))",Chrome 71.0.3578.98,,2019-01-21 12:34:51,2019-01-21 12:34:51,0.118s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:34:51,2019-01-21 12:34:54,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/RESOURCES/Page_Chiragh/div_Resources""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:34:54,2019-01-21 12:34:54,0.111s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:34:54,2019-01-21 12:34:55,0.653s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:34:55,2019-01-21 12:34:55,0.004s,PASSED
+,,,,,,
+Test Cases/header/Sell,Chrome 71.0.3578.98,,2019-01-21 12:34:55,2019-01-21 12:35:35,40.025s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:34:55,2019-01-21 12:34:58,2.385s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:34:58,2019-01-21 12:35:23,25.648s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:35:23,2019-01-21 12:35:25,1.161s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:35:25,2019-01-21 12:35:28,3.003s,PASSED
+"click(findTestObject(""Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell""))",Chrome 71.0.3578.98,,2019-01-21 12:35:28,2019-01-21 12:35:28,0.125s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:35:28,2019-01-21 12:35:31,3.002s,PASSED
+"if (verifyElementPresent(findTestObject(""sell/Page_Chiragh/Page_Chiragh/form_Sign In""), 3) == true)",Chrome 71.0.3578.98,,2019-01-21 12:35:31,2019-01-21 12:35:35,4.428s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:35:35,2019-01-21 12:35:35,0.001s,PASSED
+,,,,,,
+Test Cases/forgot password 1,Chrome 71.0.3578.98,,2019-01-21 12:35:35,2019-01-21 12:37:08,1m - 32.440s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:35:35,2019-01-21 12:35:38,2.890s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:35:38,2019-01-21 12:36:10,31.979s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:36:10,2019-01-21 12:36:11,1.156s,PASSED
+waitForPageLoad(3),Chrome 71.0.3578.98,,2019-01-21 12:36:11,2019-01-21 12:36:11,0.026s,PASSED
+"click(findTestObject(""Page_Chiragh/Page_Chiragh/div_Login or Register""))",Chrome 71.0.3578.98,,2019-01-21 12:36:11,2019-01-21 12:36:12,0.178s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/a_Login""))",Chrome 71.0.3578.98,,2019-01-21 12:36:12,2019-01-21 12:36:12,0.146s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Chiragh/form_Sign In User Name is requ""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:36:12,2019-01-21 12:36:13,1.618s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/a_Forgot Password""))",Chrome 71.0.3578.98,,2019-01-21 12:36:13,2019-01-21 12:36:14,0.241s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Chiragh/form_Forgot PasswordFollow the""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:36:14,2019-01-21 12:36:14,0.026s,PASSED
+"setText(findTestObject(""Object Repository/Page_Chiragh/input_Follow instructions ment""), ""bcmuser"")",Chrome 71.0.3578.98,,2019-01-21 12:36:14,2019-01-21 12:36:14,0.186s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/button_Submit""))",Chrome 71.0.3578.98,,2019-01-21 12:36:14,2019-01-21 12:36:14,0.196s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/span_See your email for passwo""))",Chrome 71.0.3578.98,,2019-01-21 12:36:14,2019-01-21 12:36:18,3.886s,PASSED
+"click(findTestObject(""Object Repository/Page_Chiragh/div_Forgot PasswordFollow thes""))",Chrome 71.0.3578.98,,2019-01-21 12:36:18,2019-01-21 12:36:18,0.095s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:36:18,2019-01-21 12:36:21,2.976s,PASSED
+"navigateToUrl(""https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession"")",Chrome 71.0.3578.98,,2019-01-21 12:36:21,2019-01-21 12:36:25,4.239s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:36:25,2019-01-21 12:36:30,5.000s,PASSED
+"setText(findTestObject(""Object Repository/Page_Gmail/input_Continue to Gmail_identi""), ""testbcm11@gmail.com"")",Chrome 71.0.3578.98,,2019-01-21 12:36:30,2019-01-21 12:36:31,0.306s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/content_Next""))",Chrome 71.0.3578.98,,2019-01-21 12:36:31,2019-01-21 12:36:31,0.327s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:36:31,2019-01-21 12:36:36,5.003s,PASSED
+"setEncryptedText(findTestObject(""Page_Gmail/input_Too many failed attempts""), ""OVd19+BoNkudRYAqFhSkbzPGYmVcD14T"")",Chrome 71.0.3578.98,,2019-01-21 12:36:36,2019-01-21 12:36:36,0.282s,PASSED
+"click(findTestObject(""Object Repository/Page_Gmail/span_Next""))",Chrome 71.0.3578.98,,2019-01-21 12:36:36,2019-01-21 12:36:36,0.182s,PASSED
+"click(findTestObject(""Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/span_Chiragh Reset Password""))",Chrome 71.0.3578.98,,2019-01-21 12:36:36,2019-01-21 12:37:08,31.207s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:37:08,2019-01-21 12:37:08,0.000s,PASSED
+,,,,,,
+Test Cases/footer/Buy a property,Chrome 71.0.3578.98,,2019-01-21 12:37:08,2019-01-21 12:37:34,26.374s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:37:08,2019-01-21 12:37:11,2.970s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:37:11,2019-01-21 12:37:22,11.122s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:37:22,2019-01-21 12:37:23,1.145s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:37:23,2019-01-21 12:37:28,5.004s,PASSED
+"click(findTestObject(""Object Repository/Buy a property/Page_Chiragh/a_-Buy a property""))",Chrome 71.0.3578.98,,2019-01-21 12:37:28,2019-01-21 12:37:28,0.148s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:37:28,2019-01-21 12:37:33,5.002s,PASSED
+"verifyElementPresent(findTestObject(""Buy a property/new/Page_Chiragh/div_Current Auctions        Ac""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:37:33,2019-01-21 12:37:33,0.048s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:37:33,2019-01-21 12:37:34,0.658s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:37:34,2019-01-21 12:37:34,0.003s,PASSED
+,,,,,,
+Test Cases/footer/contact us-footer,Chrome 71.0.3578.98,,2019-01-21 12:37:34,2019-01-21 12:37:56,22.430s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:37:34,2019-01-21 12:37:37,2.499s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:37:37,2019-01-21 12:37:48,11.012s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:37:48,2019-01-21 12:37:49,1.153s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:37:49,2019-01-21 12:37:52,3.004s,PASSED
+"click(findTestObject(""Object Repository/Contact Us-footer/Page_Chiragh/a_-Contact Us""))",Chrome 71.0.3578.98,,2019-01-21 12:37:52,2019-01-21 12:37:52,0.148s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:37:52,2019-01-21 12:37:55,3.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Contact Us-footer/Page_Chiragh/div_Headquarter""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:37:55,2019-01-21 12:37:56,0.663s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:37:56,2019-01-21 12:37:56,0.660s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:37:56,2019-01-21 12:37:56,0.004s,PASSED
+,,,,,,
+Test Cases/footer/contact-social links,Chrome 71.0.3578.98,,2019-01-21 12:37:56,2019-01-21 12:37:57,0.285s,FAILED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-21 12:37:57,2019-01-21 12:37:57,0.005s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:37:57,2019-01-21 12:37:57,0.000s,PASSED
+,,,,,,
+Test Cases/footer/Disclaimer-footer,Chrome 71.0.3578.98,,2019-01-21 12:37:57,2019-01-21 12:38:22,25.707s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:37:57,2019-01-21 12:37:59,2.302s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:37:59,2019-01-21 12:38:14,15.162s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:38:14,2019-01-21 12:38:15,1.148s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:38:15,2019-01-21 12:38:18,3.002s,PASSED
+"click(findTestObject(""Object Repository/Disclaimer/Page_Chiragh/a_Disclaimer""))",Chrome 71.0.3578.98,,2019-01-21 12:38:18,2019-01-21 12:38:19,0.138s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:38:19,2019-01-21 12:38:22,3.004s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Disclaimer/Page_Chiragh/div_Disclaimer""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:38:22,2019-01-21 12:38:22,0.097s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:38:22,2019-01-21 12:38:22,0.658s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:38:22,2019-01-21 12:38:22,0.003s,PASSED
+,,,,,,
+Test Cases/footer/FAQs-footer,Chrome 71.0.3578.98,,2019-01-21 12:38:22,2019-01-21 12:39:09,46.660s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:38:23,2019-01-21 12:38:25,2.388s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:38:25,2019-01-21 12:39:01,35.951s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:39:01,2019-01-21 12:39:02,1.164s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:39:02,2019-01-21 12:39:05,3.002s,PASSED
+"click(findTestObject(""Object Repository/FAQs-footer/Page_Chiragh/a_-FAQs""))",Chrome 71.0.3578.98,,2019-01-21 12:39:05,2019-01-21 12:39:05,0.166s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:39:05,2019-01-21 12:39:08,3.002s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/FAQs-footer/Page_Chiragh/div_Frequently Asked Questions""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:39:08,2019-01-21 12:39:08,0.048s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:39:08,2019-01-21 12:39:09,0.665s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:39:09,2019-01-21 12:39:09,0.003s,PASSED
+,,,,,,
+Test Cases/footer/How it Works-footer,Chrome 71.0.3578.98,,2019-01-21 12:39:09,2019-01-21 12:39:33,24.409s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:39:09,2019-01-21 12:39:12,2.412s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:39:12,2019-01-21 12:39:25,13.756s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:39:25,2019-01-21 12:39:27,1.162s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:39:27,2019-01-21 12:39:30,3.002s,PASSED
+"click(findTestObject(""Object Repository/How it Works-footer/Page_Chiragh/a_-How it works""))",Chrome 71.0.3578.98,,2019-01-21 12:39:30,2019-01-21 12:39:30,0.138s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:39:30,2019-01-21 12:39:33,3.001s,PASSED
+"verifyElementPresent(findTestObject(""How it Works-footer/Page_Chiragh/div_Seller  Buyer Process""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:39:33,2019-01-21 12:39:33,0.041s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:39:33,2019-01-21 12:39:33,0.677s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:39:33,2019-01-21 12:39:33,0.003s,PASSED
+,,,,,,
+Test Cases/footer/Privacy Policy-footer,Chrome 71.0.3578.98,,2019-01-21 12:39:33,2019-01-21 12:40:23,49.109s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:39:34,2019-01-21 12:39:36,2.228s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:39:36,2019-01-21 12:40:14,38.489s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:40:14,2019-01-21 12:40:16,1.151s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:40:16,2019-01-21 12:40:19,3.004s,PASSED
+"click(findTestObject(""Object Repository/Privacy Policy/Page_Chiragh/a_Privacy Policy""))",Chrome 71.0.3578.98,,2019-01-21 12:40:19,2019-01-21 12:40:19,0.149s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:40:19,2019-01-21 12:40:22,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Privacy Policy/Page_Chiragh/div_Privacy Policy""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:40:22,2019-01-21 12:40:22,0.091s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:40:22,2019-01-21 12:40:23,0.752s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:40:23,2019-01-21 12:40:23,0.004s,PASSED
+,,,,,,
+Test Cases/footer/repurchase-footer,Chrome 71.0.3578.98,,2019-01-21 12:40:23,2019-01-21 12:40:45,22.362s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:40:23,2019-01-21 12:40:25,2.391s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:40:25,2019-01-21 12:40:37,11.516s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:40:37,2019-01-21 12:40:38,1.170s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:40:38,2019-01-21 12:40:41,3.002s,PASSED
+"click(findTestObject(""Object Repository/repurchase-footer/Page_Chiragh/a_-Repurchase""))",Chrome 71.0.3578.98,,2019-01-21 12:40:41,2019-01-21 12:40:41,0.204s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:40:41,2019-01-21 12:40:44,3.001s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/repurchase-footer/Page_Chiragh/div_BUY BACK OR REPURCHASE AGR_1""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:40:44,2019-01-21 12:40:44,0.093s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:40:44,2019-01-21 12:40:45,0.725s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:40:45,2019-01-21 12:40:45,0.004s,PASSED
+,,,,,,
+Test Cases/footer/sell a property,Chrome 71.0.3578.98,,2019-01-21 12:40:45,2019-01-21 12:41:50,1m - 4.596s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:40:45,2019-01-21 12:40:48,2.443s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:40:48,2019-01-21 12:41:38,50.239s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:41:38,2019-01-21 12:41:39,1.158s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:41:39,2019-01-21 12:41:42,3.002s,PASSED
+"click(findTestObject(""Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell""))",Chrome 71.0.3578.98,,2019-01-21 12:41:42,2019-01-21 12:41:42,0.136s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:41:42,2019-01-21 12:41:45,3.000s,PASSED
+"if (verifyElementPresent(findTestObject(""sell/Page_Chiragh/Page_Chiragh/form_Sign In""), 3) == true)",Chrome 71.0.3578.98,,2019-01-21 12:41:45,2019-01-21 12:41:50,4.335s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:41:50,2019-01-21 12:41:50,0.000s,PASSED
+,,,,,,
+Test Cases/footer/Subscribe button,Chrome 71.0.3578.98,,2019-01-21 12:41:50,2019-01-21 12:42:44,54.528s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:41:50,2019-01-21 12:41:53,2.854s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:41:53,2019-01-21 12:42:36,43.197s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:42:36,2019-01-21 12:42:37,1.141s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:42:37,2019-01-21 12:42:40,3.002s,PASSED
+"setText(findTestObject(""Object Repository/Subscribe/Page_Chiragh/input_Newsletter_form-control""), ""a@gmail.com"")",Chrome 71.0.3578.98,,2019-01-21 12:42:40,2019-01-21 12:42:40,0.342s,PASSED
+"click(findTestObject(""Object Repository/Subscribe/Page_Chiragh/button_Subscribe""))",Chrome 71.0.3578.98,,2019-01-21 12:42:40,2019-01-21 12:42:40,0.121s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:42:40,2019-01-21 12:42:43,3.003s,PASSED
+acceptAlert(),Chrome 71.0.3578.98,,2019-01-21 12:42:43,2019-01-21 12:42:44,0.591s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:42:44,2019-01-21 12:42:44,0.000s,PASSED
+,,,,,,
+Test Cases/footer/Terms and Conditions- footer,Chrome 71.0.3578.98,,2019-01-21 12:42:44,2019-01-21 12:43:37,52.507s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:42:44,2019-01-21 12:42:47,2.915s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:42:47,2019-01-21 12:43:28,41.217s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:43:28,2019-01-21 12:43:30,1.163s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:43:30,2019-01-21 12:43:33,3.002s,PASSED
+"click(findTestObject(""Object Repository/Terms and Conditions/Page_Chiragh/a_Terms  Conditions""))",Chrome 71.0.3578.98,,2019-01-21 12:43:33,2019-01-21 12:43:33,0.142s,PASSED
+delay(3),Chrome 71.0.3578.98,,2019-01-21 12:43:33,2019-01-21 12:43:36,3.003s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Terms and Conditions/Page_Chiragh/div_Terms  Conditions""), 3)",Chrome 71.0.3578.98,,2019-01-21 12:43:36,2019-01-21 12:43:36,0.094s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:43:36,2019-01-21 12:43:37,0.670s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:43:37,2019-01-21 12:43:37,0.003s,PASSED
+,,,,,,
+Test Cases/about us page/start buying now button,Chrome 71.0.3578.98,,2019-01-21 12:43:37,2019-01-21 12:44:03,26.084s,FAILED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:43:37,2019-01-21 12:43:39,2.374s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:43:39,2019-01-21 12:43:52,13.166s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:43:52,2019-01-21 12:43:54,1.170s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:43:54,2019-01-21 12:43:59,5.003s,PASSED
+"click(findTestObject(""about us/Page_Chiragh/a_About Us(current) (1)""))",Chrome 71.0.3578.98,,2019-01-21 12:43:59,2019-01-21 12:43:59,0.132s,PASSED
+"click(findTestObject(""about us/Page_Chiragh/Page_Chiragh/button_Start Buying""))",Chrome 71.0.3578.98,,2019-01-21 12:43:59,2019-01-21 12:43:59,0.140s,PASSED
+"if (verifyElementPresent(findTestObject(""sell/Page_Chiragh/Page_Chiragh/form_Sign In""), 3) == true)",Chrome 71.0.3578.98,,2019-01-21 12:43:59,2019-01-21 12:44:03,3.853s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:44:03,2019-01-21 12:44:03,0.002s,PASSED
+,,,,,,
+Test Cases/about us page/start selling now button,Chrome 71.0.3578.98,,2019-01-21 12:44:03,2019-01-21 12:44:45,41.944s,PASSED
+"openBrowser("""")",Chrome 71.0.3578.98,,2019-01-21 12:44:03,2019-01-21 12:44:06,3.039s,PASSED
+navigateToUrl(Url),Chrome 71.0.3578.98,,2019-01-21 12:44:06,2019-01-21 12:44:32,26.200s,PASSED
+maximizeWindow(),Chrome 71.0.3578.98,,2019-01-21 12:44:32,2019-01-21 12:44:33,1.164s,PASSED
+delay(5),Chrome 71.0.3578.98,,2019-01-21 12:44:33,2019-01-21 12:44:38,5.004s,PASSED
+"click(findTestObject(""Object Repository/about us/Page_Chiragh/a_About Us(current) (1)""))",Chrome 71.0.3578.98,,2019-01-21 12:44:38,2019-01-21 12:44:38,0.118s,PASSED
+"click(findTestObject(""Object Repository/about us/Page_Chiragh/button_Start                Se""))",Chrome 71.0.3578.98,,2019-01-21 12:44:38,2019-01-21 12:44:39,0.154s,PASSED
+waitForPageLoad(5),Chrome 71.0.3578.98,,2019-01-21 12:44:39,2019-01-21 12:44:39,0.013s,PASSED
+"if (verifyElementPresent(findTestObject(""sell/Page_Chiragh/Page_Chiragh/form_Sign In""), 3) == true)",Chrome 71.0.3578.98,,2019-01-21 12:44:39,2019-01-21 12:44:44,5.294s,PASSED
+closeBrowser(),Chrome 71.0.3578.98,,2019-01-21 12:44:44,2019-01-21 12:44:45,0.678s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 71.0.3578.98,,2019-01-21 12:44:45,2019-01-21 12:44:45,0.002s,PASSED

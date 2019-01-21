@@ -25,7 +25,9 @@ WebUI.click(findTestObject('Object Repository/sell/Page_Chiragh/Page_Chiragh/a_S
 
 WebUI.delay(3)
 
-if (WebUI.verifyElementPresent(findTestObject('sell/Page_Chiragh/Page_Chiragh/form_Sign In'), 3) == true) {
+if (WebUI.verifyElementPresent(findTestObject('sell/Page_Chiragh/Page_Chiragh/form_Sign In'), 5) == true) {
+	
+	
     WebUI.setText(findTestObject('sell/Page_Chiragh/input_Sign In_userName'), GlobalVariable.userName)
 
     WebUI.setText(findTestObject('sell/Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.passWord)

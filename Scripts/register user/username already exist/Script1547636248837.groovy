@@ -55,7 +55,6 @@ WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
 WebUI.delay(3)
 
 if (WebUI.verifyTextPresent('Username already exist. Try a different one.', true)) {
-	
     def username = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
 
     WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Create Username_userName'), username)
@@ -64,12 +63,11 @@ if (WebUI.verifyTextPresent('Username already exist. Try a different one.', true
 
     WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_We have sent you a verific'),5)
-	
+    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_We have sent you a verific'), 5)
+
     WebUI.closeBrowser()
-} 
-else {
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_You are almost there'),5)
+} else {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Chiragh/div_You are almost there'), 5)
 
     WebUI.closeBrowser()
 }
