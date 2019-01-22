@@ -42,10 +42,10 @@ WebUI.verifyElementPresent(findTestObject('upload profile picture/Page_Chiragh/d
 WebUI.uploadFile(findTestObject('upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'), 'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\800px_COLOURBOX5609690.jpg')
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/snack-bar-container_Profile im'),
-	5)
+	7)
 
 WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/span_Profile image uploaded su'),
-	5)
+	7)
 
 WebUI.closeBrowser()
 
