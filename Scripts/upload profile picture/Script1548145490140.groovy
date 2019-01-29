@@ -13,10 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://dev.chiragh.com/')
+WebUI.navigateToUrl(GlobalVariable.Url)
 
 WebUI.maximizeWindow()
 
@@ -24,10 +23,9 @@ WebUI.click(findTestObject('Page_Chiragh/div_Login or Register'))
 
 WebUI.click(findTestObject('Object Repository/upload profile picture/Page_Chiragh/a_Login'))
 
-WebUI.setText(findTestObject('Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userName'), 'newuser01')
+WebUI.setText(findTestObject('Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userName'), GlobalVariable.userName)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userPassword'),
-	'RigbBhfdqOBDK95asqKeHw==')
+WebUI.setText(findTestObject('Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userPassword'), GlobalVariable.passWord)
 
 WebUI.click(findTestObject('Object Repository/upload profile picture/Page_Chiragh/button_Sign In'))
 
@@ -41,12 +39,11 @@ WebUI.verifyElementPresent(findTestObject('upload profile picture/Page_Chiragh/d
 
 WebUI.uploadFile(findTestObject('upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'), 'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\800px_COLOURBOX5609690.jpg')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/snack-bar-container_Profile im'),
-	7)
+WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/snack-bar-container_Profile im'), 
+    7)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/span_Profile image uploaded su'),
-	7)
+WebUI.verifyElementPresent(findTestObject('Object Repository/upload profile picture/Page_Chiragh/span_Profile image uploaded su'), 
+    7)
 
 WebUI.closeBrowser()
-
 

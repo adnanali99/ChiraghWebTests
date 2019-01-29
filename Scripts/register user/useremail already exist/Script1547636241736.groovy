@@ -15,7 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //An account with this email already exist.
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.Url)
@@ -30,9 +29,9 @@ WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_First Name_us
 
 WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Last Name_userLastName'), 'user')
 
-    def username = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+def username = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
 
-	WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Create Username_userName'), username)
+WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Create Username_userName'), username)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_Chiragh/input_Create Password_userPass'), 'RigbBhfdqOBGNlJIWM1ClA==')
 
@@ -57,22 +56,22 @@ WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
 WebUI.delay(10)
 
 if (WebUI.verifyTextPresent('An account with this email already exist.', true)) {
-	
-	def email = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
+    def email = org.apache.commons.lang.RandomStringUtils.randomAlphanumeric(8)
 
-	WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Your Email_userEmail'), email+ '@gmail.com')
+    WebUI.setText(findTestObject('Object Repository/Page_Chiragh/input_Your Email_userEmail'), email + '@gmail.com')
 
-	WebUI.delay(10)
+    WebUI.delay(10)
 
-	WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
-	
+    WebUI.click(findTestObject('Object Repository/Page_Chiragh/button_Register'))
 
-	WebUI.verifyElementPresent(findTestObject('Object Repository/register user/Page_Chiragh/div_You are almost thereVerify'),5)
-	
-	WebUI.closeBrowser()
-} 
-else {
-	WebUI.verifyElementPresent(findTestObject('Object Repository/register user/Page_Chiragh/div_You are almost thereVerify'),5)
+    WebUI.verifyElementPresent(findTestObject('Object Repository/register user/Page_Chiragh/div_You are almost thereVerify'), 
+        5)
 
-	WebUI.closeBrowser()
+    WebUI.closeBrowser()
+} else {
+    WebUI.verifyElementPresent(findTestObject('Object Repository/register user/Page_Chiragh/div_You are almost thereVerify'), 
+        5)
+
+    WebUI.closeBrowser()
 }
+

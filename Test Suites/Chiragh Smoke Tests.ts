@@ -232,4 +232,10 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/about us page/start selling now button</testCaseId>
    </testCaseLink>
+   <testCaseLink>
+      <guid>d8c19cde-4ca0-4399-b0ce-b3b0420aa2b1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/upload profile picture</testCaseId>
+   </testCaseLink>
 </TestSuiteEntity>
