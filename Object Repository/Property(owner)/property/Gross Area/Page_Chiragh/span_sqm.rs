@@ -6,6 +6,10 @@
    <elementGuidId>ffc8d24b-0df0-449b-b999-8080ecd6d587</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mat-option-86&quot;]/span</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-106']/span</value>
       </entry>
@@ -13,7 +17,7 @@
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -27,18 +31,18 @@
       <value>mat-option-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>sqm</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-106&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <value>//*[@id=&quot;mat-option-86&quot;]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

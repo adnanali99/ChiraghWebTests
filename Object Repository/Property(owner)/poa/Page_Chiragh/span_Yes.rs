@@ -6,14 +6,18 @@
    <elementGuidId>f2bd9b61-6d23-4c1d-87de-1c028fc7687c</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Yes' or . = 'Yes')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-95']/span</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-95&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <value>//*[@id=&quot;mat-option-75&quot;]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

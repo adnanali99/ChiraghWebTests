@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-option-105&quot;]/span[count(. | //*[(text() = 'Other' or . = 'Other')]) = count(//*[(text() = 'Other' or . = 'Other')])]</value>
+         <value>//*[@id=&quot;mat-option-105&quot;]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -31,7 +31,7 @@
       <value>mat-option-text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-option-105&quot;]/span</value>
+      <value>//*[@id=&quot;mat-option-105&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

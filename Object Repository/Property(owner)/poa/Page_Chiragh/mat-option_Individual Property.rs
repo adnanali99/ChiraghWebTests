@@ -6,14 +6,18 @@
    <elementGuidId>1ca708b0-17aa-4455-a4a9-be5993c1d856</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Individual Property' or . = 'Individual Property')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-97']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -80,7 +84,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-97&quot;)</value>
+      <value>//*[@id=&quot;mat-option-97&quot;]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
