@@ -641,7 +641,7 @@ def EjariNumber = org.apache.commons.lang.RandomStringUtils.randomNumeric(7)
 
 WebUI.setText(findTestObject('Property(owner)/rent/Page_Chiragh/input_Ejari Number_rentalEjari'), EjariNumber)
 
-String tenantName = faker.name().fullName()
+String tenantName = faker.name().firstName()
 
 WebUI.setText(findTestObject('Property(owner)/rent/Page_Chiragh/input_Tenant Name_tenantName'), tenantName)
 
@@ -704,4 +704,10 @@ WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/span_INDEPEND
 WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/h3_JLL'))
 
 WebUI.click(findTestObject('Property(owner)/Valuation/Page_Chiragh/button_SUBMIT FOR VALUATION'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Property(owner)/property saved/Page_Chiragh/div_Your property details have'), 5)
+
+WebUI.closeBrowser()
 

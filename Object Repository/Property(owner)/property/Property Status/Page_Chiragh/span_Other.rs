@@ -6,8 +6,12 @@
    <elementGuidId>b9cc85a5-a7ef-4923-8519-a05887379fda</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;mat-option-101&quot;][count(. | //*[(text() = 'Other' or . = 'Other')]) = count(//*[(text() = 'Other' or . = 'Other')])]</value>
+         <value>//*[@id=&quot;mat-option-81&quot;]/span[count(. | //*[(text() = 'Other' or . = 'Other')]) = count(//*[(text() = 'Other' or . = 'Other')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +46,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;mat-option-101&quot;]</value>
+      <value>//*[@id=&quot;mat-option-81&quot;]/span</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
