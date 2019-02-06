@@ -22,14 +22,14 @@ Faker faker = new Faker();
 //owner
 String ownerfirst = faker.name().firstName()
 String ownermiddle = faker.name().firstName()
-String ownerlast = faker.name().lastName()
+String ownerlast = faker.name().firstName()
 String ownerphcode = faker.address().countryCode()
 String ownermobcode = faker.address().countryCode()
 String owneraddress = faker.address().streetAddress()
 //poa
 String poafirst = faker.name().firstName()
 String poamiddle = faker.name().firstName()
-String poalast = faker.name().lastName()
+String poalast = faker.name().firstName()
 String poaphncode = faker.address().countryCode()
 String poamobcode = faker.address().countryCode()
 String poaaddress = faker.address().streetAddress()
@@ -553,6 +553,8 @@ WebUI.delay(7)
 WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/property/SPA/Page_Chiragh/Page_Chiragh/div_(Sale purchase agreement)_'),
 	'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
 
+WebUI.delay(7)
+
 WebUI.click(findTestObject('Object Repository/Property(owner)/property/Page_Chiragh/button_Next'))
 
 WebUI.delay(3)
@@ -625,6 +627,8 @@ WebUI.scrollToElement(findTestObject('Object Repository/Property(owner)/mortgage
 WebUI.delay(7)
 
 WebUI.uploadFile(findTestObject('Object Repository/Property(owner)/mortgage/other/Page_Chiragh/div_Other_doc-upload'), 'C:\\Users\\HP\\Katalon Studio\\register\\Include\\images\\Scanned Passport Copy.png')
+
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Property(owner)/mortgage/Page_Chiragh/button_Next'))
 

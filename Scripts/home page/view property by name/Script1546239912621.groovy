@@ -23,7 +23,7 @@ WebUI.maximizeWindow()
 
 //WebUI.delay(5)
 
-if (RC.getExecutionProfile() == 'default') {
+/*if (RC.getExecutionProfile() == 'default') {
 	
 	//WebUI.delay(5)
 	
@@ -46,5 +46,11 @@ if (RC.getExecutionProfile() == 'demo') {
     WebUI.verifyElementPresent(findTestObject('view property/Page_Chiragh/div_Exit VR (1)'), 3)
 
     WebUI.closeBrowser()
-}
+}*/
+
+WebUI.click(findTestObject('Object Repository/property by name/Page_Chiragh/a_Burj Dubai'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/property by name/Page_Chiragh/div_Exit VR'), 8 )
+
+WebUI.closeBrowser()
 

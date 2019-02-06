@@ -6,11 +6,15 @@
    <elementGuidId>6e8c03e3-4cfc-43ff-92e1-0adcc98ce4fb</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//div[2]/div[2]/a</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[@id='caSlider']/div/div/div[2]/div[2]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,25 +45,25 @@
       <value>cdk-describedby-message-0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
       <value>/property/detail/896</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value> Burj Dubai </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;caSlider&quot;)/div[@class=&quot;block-inner3 w-100&quot;]/div[@class=&quot;row block-item3 ng-star-inserted&quot;]/div[@class=&quot;ca-blocks-col ca-blocks-col-rt px-0 col-md-6&quot;]/div[@class=&quot;ca-heading-wrap&quot;]/a[@class=&quot;ca-block-heading mb-1&quot;]</value>
+      <value>//div[2]/div[2]/a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
