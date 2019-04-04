@@ -1,0 +1,1433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Chiragh Smoke Tests" time="202" tests="2" failures="7" errors="0">
+   <testsuite name="Chiragh Smoke Tests" tests="2" failures="7" errors="0" time="202" timestamp="2019-03-07 17:33:39" hostname="hp - Adnan" id="Test Suites/Chiragh Smoke Tests">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334"/>
+         <property name="logFiles" value="C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962053004.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962053435.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962065578.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962066125.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962158036.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962158811.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962159222.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962179103.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962179498.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962197294.png, C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962220972.png"/>
+         <property name="hostName" value="hp - Adnan"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.5.4"/>
+         <property name="browser" value="Chrome 72.0.3626.119"/>
+         <property name="hostAddress" value="192.168.1.156"/>
+         <property name="sessionId" value="6317ac21f426bee048215f95402ad85c"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/home page/Contact Us" classname="Test Cases/home page/Contact Us" status="PASSED">
+         <system-out><![CDATA[2019-03-07 17:33:40 - [TEST_CASE][PASSED] - Test Cases/home page/Contact Us: Test Cases/home page/Contact Us
+
+2019-03-07 17:33:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:33:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:33:40 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-03-07 17:33:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:33:44 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:33:54 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:33:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:33:55 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:33:55 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:33:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:33:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Contact Us/Page_Chiragh/a_CONTACT US")): Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-03-07 17:33:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Contact Us/Page_Chiragh/a_CONTACT US' is clicked on
+
+2019-03-07 17:33:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:34:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:34:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Contact Us/Page_Chiragh/div_Headquarter"), 3): Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-03-07 17:34:02 - [MESSAGE][PASSED] - Object 'Object Repository/Contact Us/Page_Chiragh/div_Headquarter' is present
+
+2019-03-07 17:34:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-07 17:34:03 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-07 17:34:03 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:34:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:34:03 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/first learn more" classname="Test Cases/home page/first learn more" status="FAILED">
+         <failure type="FAILED" message="Test Cases/home page/first learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:34:03 - [TEST_CASE][FAILED] - Test Cases/home page/first learn more: Test Cases/home page/first learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:34:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:34:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:34:06 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:12 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/first learn more/Page_Chiragh/button_LEARN MORE")): Object: 'Object Repository/first learn more/Page_Chiragh/button_LEARN MORE' is clicked on
+
+2019-03-07 17:34:12 - [MESSAGE][PASSED] - Object: 'Object Repository/first learn more/Page_Chiragh/button_LEARN MORE' is clicked on
+
+2019-03-07 17:34:12 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:13 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962053004.png]]
+
+2019-03-07 17:34:13 - [MESSAGE][FAILED] - Unable to accept alert
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962053435.png]]
+
+2019-03-07 17:34:13 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:34:13 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:34:03 - [TEST_CASE][FAILED] - Test Cases/home page/first learn more: Test Cases/home page/first learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/home page/second learn more" classname="Test Cases/home page/second learn more" status="FAILED">
+         <failure type="FAILED" message="Test Cases/home page/second learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at second learn more.run(second learn more:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:34:13 - [TEST_CASE][FAILED] - Test Cases/home page/second learn more: Test Cases/home page/second learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at second learn more.run(second learn more:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:34:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:34:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:34:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:34:17 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:24 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:24 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:34:25 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:34:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/second learn more/Page_Chiragh/button_LEARN MORE")): Object: 'Object Repository/second learn more/Page_Chiragh/button_LEARN MORE' is clicked on
+
+2019-03-07 17:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/second learn more/Page_Chiragh/button_LEARN MORE' is clicked on
+
+2019-03-07 17:34:25 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at second learn more.run(second learn more:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:26 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962065578.png]]
+
+2019-03-07 17:34:26 - [MESSAGE][FAILED] - Unable to accept alert
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962066125.png]]
+
+2019-03-07 17:34:26 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at second learn more.run(second learn more:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:26 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:34:26 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:34:13 - [TEST_CASE][FAILED] - Test Cases/home page/second learn more: Test Cases/home page/second learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at second learn more.run(second learn more:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/header/Sell" classname="Test Cases/header/Sell" status="PASSED">
+         <system-out><![CDATA[2019-03-07 17:34:26 - [TEST_CASE][PASSED] - Test Cases/header/Sell: Test Cases/header/Sell
+
+2019-03-07 17:34:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:34:26 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:34:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:34:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:34:30 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:37 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:34:38 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:34:38 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:34:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:34:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell")): Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-03-07 17:34:42 - [MESSAGE][PASSED] - Object: 'Object Repository/sell/Page_Chiragh/Page_Chiragh/a_Sell' is clicked on
+
+2019-03-07 17:34:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:34:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:34:45 - [TEST_STEP][PASSED] - if (verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Sign In"), 5) == true): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-03-07 17:34:45 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Sign In' is present
+
+2019-03-07 17:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userName"), userName): Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-03-07 17:34:45 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userName'
+
+2019-03-07 17:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("sell/Page_Chiragh/input_Sign In_userPassword"), passWord): Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-03-07 17:34:45 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/sell/Page_Chiragh/input_Sign In_userPassword'
+
+2019-03-07 17:34:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/button_Sign In")): Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-03-07 17:34:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Sign In' is clicked on
+
+2019-03-07 17:34:45 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:34:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:34:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("sell/Page_Chiragh/Page_Chiragh/form_Owner Details"), 3): Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-03-07 17:34:49 - [MESSAGE][PASSED] - Object 'Object Repository/sell/Page_Chiragh/Page_Chiragh/form_Owner Details' is present
+
+2019-03-07 17:34:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-03-07 17:34:49 - [MESSAGE][PASSED] - Browser is closed
+
+2019-03-07 17:34:49 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:34:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:34:49 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/forgot password 1" classname="Test Cases/forgot password 1" status="FAILED">
+         <failure type="FAILED" message="Test Cases/forgot password 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at forgot password 1.run(forgot password 1:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:34:49 - [TEST_CASE][FAILED] - Test Cases/forgot password 1: Test Cases/forgot password 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at forgot password 1.run(forgot password 1:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:34:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:34:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:34:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:34:52 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:58 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:34:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:35:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:35:00 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2019-03-07 17:35:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-07 17:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/Page_Chiragh/div_Login or Register")): Object: 'Object Repository/Page_Chiragh/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:35:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/a_Login")): Object: 'Object Repository/Page_Chiragh/a_Login' is clicked on
+
+2019-03-07 17:35:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/a_Login' is clicked on
+
+2019-03-07 17:35:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Chiragh/form_Sign In User Name is requ"), 5): Object 'Object Repository/Page_Chiragh/form_Sign In User Name is requ' is present
+
+2019-03-07 17:35:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Chiragh/form_Sign In User Name is requ' is present
+
+2019-03-07 17:35:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/a_Forgot Password")): Object: 'Object Repository/Page_Chiragh/a_Forgot Password' is clicked on
+
+2019-03-07 17:35:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/a_Forgot Password' is clicked on
+
+2019-03-07 17:35:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Chiragh/form_Forgot PasswordFollow the"), 3): Object 'Object Repository/Page_Chiragh/form_Forgot PasswordFollow the' is present
+
+2019-03-07 17:35:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Chiragh/form_Forgot PasswordFollow the' is present
+
+2019-03-07 17:35:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Chiragh/input_Follow instructions ment"), "bcmuser"): Text 'bcmuser' is set on object 'Object Repository/Page_Chiragh/input_Follow instructions ment'
+
+2019-03-07 17:35:02 - [MESSAGE][PASSED] - Text 'bcmuser' is set on object 'Object Repository/Page_Chiragh/input_Follow instructions ment'
+
+2019-03-07 17:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/button_Submit")): Object: 'Object Repository/Page_Chiragh/button_Submit' is clicked on
+
+2019-03-07 17:35:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/button_Submit' is clicked on
+
+2019-03-07 17:35:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/span_See your email for passwo")): Object: 'Object Repository/Page_Chiragh/span_See your email for passwo' is clicked on
+
+2019-03-07 17:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/span_See your email for passwo' is clicked on
+
+2019-03-07 17:35:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Chiragh/div_Forgot PasswordFollow thes")): Object: 'Object Repository/Page_Chiragh/div_Forgot PasswordFollow thes' is clicked on
+
+2019-03-07 17:35:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/div_Forgot PasswordFollow thes' is clicked on
+
+2019-03-07 17:35:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:35:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:35:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:35:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:35:09 - [TEST_STEP][PASSED] - navigateToUrl("https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession"): Navigate to 'https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession' successfully
+
+2019-03-07 17:35:11 - [MESSAGE][PASSED] - Navigate to 'https://accounts.google.com/ServiceLogin/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=AddSession' successfully
+
+2019-03-07 17:35:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-07 17:35:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-07 17:35:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Gmail/input_Continue to Gmail_identi"), "testbcm11@gmail.com"): Text 'testbcm11@gmail.com' is set on object 'Object Repository/Page_Gmail/input_Continue to Gmail_identi'
+
+2019-03-07 17:35:17 - [MESSAGE][PASSED] - Text 'testbcm11@gmail.com' is set on object 'Object Repository/Page_Gmail/input_Continue to Gmail_identi'
+
+2019-03-07 17:35:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Gmail/content_Next")): Object: 'Object Repository/Page_Gmail/content_Next' is clicked on
+
+2019-03-07 17:35:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/content_Next' is clicked on
+
+2019-03-07 17:35:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-07 17:35:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-07 17:35:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Page_Gmail/input_Too many failed attempts"), "OVd19+BoNkudRYAqFhSkbzPGYmVcD14T"): Text ****** has been set on object 'Object Repository/Page_Gmail/input_Too many failed attempts'
+
+2019-03-07 17:35:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Gmail/input_Too many failed attempts'
+
+2019-03-07 17:35:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Gmail/span_Next")): Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+2019-03-07 17:35:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Gmail/span_Next' is clicked on
+
+2019-03-07 17:35:23 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.")): click(findTestObject("Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at forgot password 1.run(forgot password 1:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:35:58 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tr[@id=':2z']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-03-07 17:35:58 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962158036.png]]
+
+2019-03-07 17:35:58 - [MESSAGE][FAILED] - click(findTestObject("Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at forgot password 1.run(forgot password 1:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:35:58 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:35:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:35:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:34:49 - [TEST_CASE][FAILED] - Test Cases/forgot password 1: Test Cases/forgot password 1 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_Inbox (835) - fatimazaidi1995g/Page_Inbox (5) - testbcm11gmail.com/Page_Inbox (5) - testbcm11gmail.com/tr_unread bestercapitalmediap.'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at forgot password 1.run(forgot password 1:58)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/contact-social links" classname="Test Cases/footer/contact-social links" status="FAILED">
+         <failure type="FAILED" message="Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:35:58 - [TEST_CASE][FAILED] - Test Cases/footer/contact-social links: Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:35:58 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:35:59 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962158811.png]]
+
+2019-03-07 17:35:59 - [MESSAGE][FAILED] - Unable to accept alert
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962159222.png]]
+
+2019-03-07 17:35:59 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:35:59 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:35:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:35:59 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:35:58 - [TEST_CASE][FAILED] - Test Cases/footer/contact-social links: Test Cases/footer/contact-social links FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at contact-social links.run(contact-social links:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/footer/Subscribe button" classname="Test Cases/footer/Subscribe button" status="FAILED">
+         <failure type="FAILED" message="Test Cases/footer/Subscribe button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at Subscribe button.run(Subscribe button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:35:59 - [TEST_CASE][FAILED] - Test Cases/footer/Subscribe button: Test Cases/footer/Subscribe button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at Subscribe button.run(Subscribe button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:36:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:36:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:36:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:36:03 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:11 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:36:12 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:36:12 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:36:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:36:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Subscribe/Page_Chiragh/input_Newsletter_form-control"), "a@gmail.com"): Text 'a@gmail.com' is set on object 'Object Repository/Subscribe/Page_Chiragh/input_Newsletter_form-control'
+
+2019-03-07 17:36:15 - [MESSAGE][PASSED] - Text 'a@gmail.com' is set on object 'Object Repository/Subscribe/Page_Chiragh/input_Newsletter_form-control'
+
+2019-03-07 17:36:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Subscribe/Page_Chiragh/button_Subscribe")): Object: 'Object Repository/Subscribe/Page_Chiragh/button_Subscribe' is clicked on
+
+2019-03-07 17:36:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Subscribe/Page_Chiragh/button_Subscribe' is clicked on
+
+2019-03-07 17:36:16 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-03-07 17:36:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-03-07 17:36:19 - [TEST_STEP][FAILED] - acceptAlert(): acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at Subscribe button.run(Subscribe button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:19 - [MESSAGE][FAILED] - No alert found
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962179103.png]]
+
+2019-03-07 17:36:19 - [MESSAGE][FAILED] - Unable to accept alert
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962179498.png]]
+
+2019-03-07 17:36:19 - [MESSAGE][FAILED] - acceptAlert() FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at Subscribe button.run(Subscribe button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:19 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:36:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:36:19 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:35:59 - [TEST_CASE][FAILED] - Test Cases/footer/Subscribe button: Test Cases/footer/Subscribe button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at Subscribe button.run(Subscribe button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/about us page/start buying now button" classname="Test Cases/about us page/start buying now button" status="FAILED">
+         <failure type="FAILED" message="Test Cases/about us page/start buying now button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Current Auctions' is present 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at start buying now button.run(start buying now button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:36:19 - [TEST_CASE][FAILED] - Test Cases/about us page/start buying now button: Test Cases/about us page/start buying now button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Current Auctions' is present 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at start buying now button.run(start buying now button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:36:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:36:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:36:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:36:23 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:30 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:36:31 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:36:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-03-07 17:36:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-03-07 17:36:36 - [TEST_STEP][PASSED] - click(findTestObject("about us/Page_Chiragh/a_About Us(current) (1)")): Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current) (1)' is clicked on
+
+2019-03-07 17:36:36 - [MESSAGE][PASSED] - Object: 'Object Repository/about us/Page_Chiragh/a_About Us(current) (1)' is clicked on
+
+2019-03-07 17:36:36 - [TEST_STEP][PASSED] - click(findTestObject("about us/Page_Chiragh/Page_Chiragh/button_Start Buying")): Object: 'Object Repository/about us/Page_Chiragh/Page_Chiragh/button_Start Buying' is clicked on
+
+2019-03-07 17:36:37 - [MESSAGE][PASSED] - Object: 'Object Repository/about us/Page_Chiragh/Page_Chiragh/button_Start Buying' is clicked on
+
+2019-03-07 17:36:37 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-03-07 17:36:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-03-07 17:36:37 - [TEST_STEP][FAILED] - verifyTextPresent("Current Auctions", false): verifyTextPresent("Current Auctions", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Current Auctions' is present 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at start buying now button.run(start buying now button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:37 - [MESSAGE][FAILED] - Text 'Current Auctions' is not present on page 
+
+2019-03-07 17:36:37 - [MESSAGE][FAILED] - Unable to verify text 'Current Auctions' is present 
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962197294.png]]
+
+2019-03-07 17:36:37 - [MESSAGE][FAILED] - verifyTextPresent("Current Auctions", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Current Auctions' is present 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at start buying now button.run(start buying now button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:37 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:36:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:36:37 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:36:19 - [TEST_CASE][FAILED] - Test Cases/about us page/start buying now button: Test Cases/about us page/start buying now button FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Current Auctions' is present 
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$9.call(Unknown Source)
+	at start buying now button.run(start buying now button:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/upload profile picture" classname="Test Cases/upload profile picture" status="FAILED">
+         <failure type="FAILED" message="Test Cases/upload profile picture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$10.call(Unknown Source)
+	at upload profile picture.run(upload profile picture:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+"/>
+         <system-out><![CDATA[2019-03-07 17:36:37 - [TEST_CASE][FAILED] - Test Cases/upload profile picture: Test Cases/upload profile picture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$10.call(Unknown Source)
+	at upload profile picture.run(upload profile picture:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:36:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-03-07 17:36:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-03-07 17:36:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-03-07 17:36:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-03-07 17:36:41 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:50 - [MESSAGE][PASSED] - Navigate to 'http://dev.chiragh.com/' successfully
+
+2019-03-07 17:36:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-03-07 17:36:51 - [MESSAGE][PASSED] - Current window maximized
+
+2019-03-07 17:36:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/div_Login or Register")): Object: 'Object Repository/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:36:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/upload profile picture/Page_Chiragh/a_Login")): Object: 'Object Repository/upload profile picture/Page_Chiragh/a_Login' is clicked on
+
+2019-03-07 17:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/upload profile picture/Page_Chiragh/a_Login' is clicked on
+
+2019-03-07 17:36:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userName"), userName): Text 'newuser01' is set on object 'Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userName'
+
+2019-03-07 17:36:54 - [MESSAGE][PASSED] - Text 'newuser01' is set on object 'Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userName'
+
+2019-03-07 17:36:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userPassword"), passWord): Text '1234567890' is set on object 'Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userPassword'
+
+2019-03-07 17:36:54 - [MESSAGE][PASSED] - Text '1234567890' is set on object 'Object Repository/upload profile picture/Page_Chiragh/input_Sign In_userPassword'
+
+2019-03-07 17:36:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/upload profile picture/Page_Chiragh/button_Sign In")): Object: 'Object Repository/upload profile picture/Page_Chiragh/button_Sign In' is clicked on
+
+2019-03-07 17:36:54 - [MESSAGE][PASSED] - Object: 'Object Repository/upload profile picture/Page_Chiragh/button_Sign In' is clicked on
+
+2019-03-07 17:36:54 - [TEST_STEP][PASSED] - delay(4): Delayed 4 second(s)
+
+2019-03-07 17:36:58 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2019-03-07 17:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Chiragh/div_Login or Register")): Object: 'Object Repository/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Chiragh/div_Login or Register' is clicked on
+
+2019-03-07 17:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/upload profile picture/Page_Chiragh/a_Profile")): Object: 'Object Repository/upload profile picture/Page_Chiragh/a_Profile' is clicked on
+
+2019-03-07 17:36:58 - [MESSAGE][PASSED] - Object: 'Object Repository/upload profile picture/Page_Chiragh/a_Profile' is clicked on
+
+2019-03-07 17:36:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta"), 5): Object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta' is present
+
+2019-03-07 17:37:00 - [MESSAGE][PASSED] - Object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta' is present
+
+2019-03-07 17:37:00 - [TEST_STEP][FAILED] - uploadFile(findTestObject("upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta"), "C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg"): uploadFile(findTestObject("upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta"), "C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$10.call(Unknown Source)
+	at upload profile picture.run(upload profile picture:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:37:01 - [MESSAGE][FAILED] - Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+[[ATTACHMENT|C:\\Users\\hp\\git\\ChiraghWebTests\\Reports\\Chiragh Smoke Tests\\20190307_173334\\1551962220972.png]]
+
+2019-03-07 17:37:01 - [MESSAGE][FAILED] - uploadFile(findTestObject("upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta"), "C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$10.call(Unknown Source)
+	at upload profile picture.run(upload profile picture:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)
+
+
+2019-03-07 17:37:01 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: null
+
+2019-03-07 17:37:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2019-03-07 17:37:01 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseStatus()): null]]></system-out>
+         <system-err><![CDATA[2019-03-07 17:36:37 - [TEST_CASE][FAILED] - Test Cases/upload profile picture: Test Cases/upload profile picture FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to upload file 'C:\Users\HP\Katalon Studio\register\Include\images\800px_COLOURBOX5609690.jpg' to object 'Object Repository/upload profile picture/Page_Chiragh/div_Personal InfoPersonal Deta'
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.uploadFile(UploadFileKeyword.groovy:87)
+	at com.kms.katalon.core.webui.keyword.builtin.UploadFileKeyword.execute(UploadFileKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.uploadFile(WebUiBuiltInKeywords.groovy:2945)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$uploadFile$10.call(Unknown Source)
+	at upload profile picture.run(upload profile picture:40)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-03-07 17:33:39 - [TEST_SUITE][FAILED] - Chiragh Smoke Tests: Test Cases/home page/first learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-out>
+      <system-err><![CDATA[2019-03-07 17:33:39 - [TEST_SUITE][FAILED] - Chiragh Smoke Tests: Test Cases/home page/first learn more FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to accept alert
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:48)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.acceptAlert(AcceptAlertKeyword.groovy:71)
+	at com.kms.katalon.core.webui.keyword.builtin.AcceptAlertKeyword.execute(AcceptAlertKeyword.groovy:66)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:56)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.acceptAlert(WebUiBuiltInKeywords.groovy:1492)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$acceptAlert$5.call(Unknown Source)
+	at first learn more.run(first learn more:22)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:331)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:293)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:227)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1551962014645.run(TempTestSuite1551962014645.groovy:35)]]></system-err>
+   </testsuite>
+</testsuites>
